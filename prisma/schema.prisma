@@ -1,0 +1,305 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// -------------------------------------------------------------
+// Authentication & Administration
+// -------------------------------------------------------------
+model AdminUser {
+  id           String     @id @default(cuid())
+  email        String     @unique
+  passwordHash String
+  name         String
+  role         String     @default("SUPER_ADMIN") // SUPER_ADMIN, EDITOR, INTAKE_MANAGER
+  isActive     Boolean    @default(true)
+  lastLoginAt  DateTime?
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+}
+
+// -------------------------------------------------------------
+// Legal Practice Areas
+// -------------------------------------------------------------
+model PracticeArea {
+  id                 String                     @id @default(cuid())
+  slug               String                     @unique
+  name               String
+  tagline            String
+  iconName           String                     @default("Scale")
+  summary            String
+  overview           String
+  keyServices        String                     // JSON string array of services
+  relevantIndustries String                     // JSON string array of industries
+  displayOrder       Int                        @default(0)
+  isPublished        Boolean                    @default(true)
+  isFeatured         Boolean                    @default(false)
+  attorneys          AttorneyPracticeArea[]
+  createdAt          DateTime                   @default(now())
+  updatedAt          DateTime                   @updatedAt
+}
+
+// -------------------------------------------------------------
+// Attorneys & Legal Practitioners
+// -------------------------------------------------------------
+model Attorney {
+  id             String                     @id @default(cuid())
+  slug           String                     @unique
+  fullName       String
+  title          String                     // e.g. Senior Partner, Managing Partner, Senior Advocate of Nigeria (SAN), Principal Counsel
+  designation    String                     // e.g. Head of Dispute Resolution & Commercial Litigation
+  bio            String
+  detailedBio    String
+  photoUrl       String
+  email          String
+  phone          String
+  officeLocation String                     // e.g. Lagos, Abuja, London
+  admissions     String                     // JSON string array
+  education      String                     // JSON string array
+  qualifications String                     // JSON string array
+  languages      String                     // JSON string array
+  isPartner      Boolean                    @default(false)
+  isFeatured     Boolean                    @default(false)
+  displayOrder   Int                        @default(0)
+  isPublished    Boolean                    @default(true)
+  practiceAreas  AttorneyPracticeArea[]
+  createdAt      DateTime                   @default(now())
+  updatedAt      DateTime                   @updatedAt
+}
+
+model AttorneyPracticeArea {
+  id             String       @id @default(cuid())
+  attorneyId     String
+  practiceAreaId String
+  attorney       Attorney     @relation(fields: [attorneyId], references: [id], onDelete: Cascade)
+  practiceArea   PracticeArea @relation(fields: [practiceAreaId], references: [id], onDelete: Cascade)
+
+  @@unique([attorneyId, practiceAreaId])
+}
+
+// -------------------------------------------------------------
+// Industry Focus
+// -------------------------------------------------------------
+model Industry {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  name        String
+  summary     String
+  description String
+  iconName    String   @default("Building")
+  displayOrder Int     @default(0)
+  isPublished Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+// -------------------------------------------------------------
+// Insights, News, Publications & Legal Updates
+// -------------------------------------------------------------
+model Article {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  title       String
+  summary     String
+  content     String   // Full markdown or HTML formatted legal text
+  category    String   // LEGAL_UPDATE, ARTICLE, NEWS, PUBLICATION, CLIENT_ALERT
+  authorName  String
+  authorTitle String
+  readTime    String   @default("5 min read")
+  coverImage  String
+  isPublished Boolean  @default(true)
+  isFeatured  Boolean  @default(false)
+  publishedAt DateTime @default(now())
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+// -------------------------------------------------------------
+// Case Studies & Representative Matters
+// -------------------------------------------------------------
+model CaseStudy {
+  id               String   @id @default(cuid())
+  slug             String   @unique
+  title            String
+  practiceAreaName String
+  industry         String
+  summary          String
+  challenge        String
+  solution         String
+  outcome          String
+  matterYear       String
+  displayOrder     Int      @default(0)
+  isPublished      Boolean  @default(true)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+}
+
+// -------------------------------------------------------------
+// Client Testimonials & Endorsements
+// -------------------------------------------------------------
+model Testimonial {
+  id           String   @id @default(cuid())
+  clientName   String
+  clientRole   String   // e.g. Chief Legal Officer, Managing Director, Private Client
+  company      String   // e.g. West African Energy Conglomerate, Tech Venture Fund
+  quote        String
+  rating       Int      @default(5)
+  caseType     String   // e.g. Cross-Border M&A, Commercial Arbitration
+  isFeatured   Boolean  @default(true)
+  displayOrder Int      @default(0)
+  isPublished  Boolean  @default(true)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+// -------------------------------------------------------------
+// Office Locations
+// -------------------------------------------------------------
+model Office {
+  id           String   @id @default(cuid())
+  city         String
+  country      String
+  addressLine1 String
+  addressLine2 String?
+  postalCode   String?
+  phone        String
+  email        String
+  hours        String
+  mapUrl       String
+  isPrimary    Boolean  @default(false)
+  displayOrder Int      @default(0)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+// -------------------------------------------------------------
+// Career System & Job Postings
+// -------------------------------------------------------------
+model JobPosting {
+  id               String           @id @default(cuid())
+  slug             String           @unique
+  title            String
+  department       String           // e.g. Dispute Resolution, Corporate & Commercial
+  location         String           // e.g. Lagos, Abuja, Hybrid
+  employmentType   String           // Full-time, Associate, Pupil Counsel
+  experienceLevel  String
+  summary          String
+  responsibilities String           // JSON string array
+  requirements     String           // JSON string array
+  benefits         String           // JSON string array
+  deadline         DateTime?
+  isOpen           Boolean          @default(true)
+  applications     JobApplication[]
+  createdAt        DateTime         @default(now())
+  updatedAt        DateTime         @updatedAt
+}
+
+model JobApplication {
+  id           String     @id @default(cuid())
+  jobId        String
+  job          JobPosting @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  fullName     String
+  email        String
+  phone        String
+  linkedinUrl  String?
+  coverLetter  String
+  resumeUrl    String?    // uploaded document or link
+  status       String     @default("PENDING") // PENDING, REVIEWED, INTERVIEWING, REJECTED, HIRED
+  notes        String?
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+}
+
+// -------------------------------------------------------------
+// Consultation & Case Evaluation Requests
+// -------------------------------------------------------------
+model ConsultationRequest {
+  id               String   @id @default(cuid())
+  referenceNumber  String   @unique
+  fullName         String
+  email            String
+  phone            String
+  company          String?
+  country          String   @default("Nigeria")
+  matterType       String   // e.g. Corporate Law, Commercial Litigation, Bankruptcy & Restructuring, Personal Injury
+  preferredContact String   // Phone, Email, Virtual Meeting
+  preferredDate    String?
+  preferredTime    String?
+  description      String
+  hasConsent       Boolean  @default(true)
+  status           String   @default("NEW") // NEW, CONTACTED, IN_REVIEW, COMPLETED, ARCHIVED
+  adminNotes       String?
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+}
+
+// -------------------------------------------------------------
+// Contact Messages
+// -------------------------------------------------------------
+model ContactMessage {
+  id         String   @id @default(cuid())
+  fullName   String
+  email      String
+  phone      String?
+  subject    String
+  message    String
+  status     String   @default("UNREAD") // UNREAD, READ, RESPONDED, ARCHIVED
+  adminNotes String?
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+}
+
+// -------------------------------------------------------------
+// Newsletter Subscribers
+// -------------------------------------------------------------
+model NewsletterSubscriber {
+  id             String    @id @default(cuid())
+  email          String    @unique
+  isActive       Boolean   @default(true)
+  source         String    @default("FOOTER_FORM")
+  subscribedAt   DateTime  @default(now())
+  unsubscribedAt DateTime?
+}
+
+// -------------------------------------------------------------
+// Frequently Asked Questions
+// -------------------------------------------------------------
+model Faq {
+  id           String   @id @default(cuid())
+  question     String
+  answer       String
+  category     String   // GENERAL, CONSULTATIONS, LITIGATION, CORPORATE, BILLING
+  displayOrder Int      @default(0)
+  isPublished  Boolean  @default(true)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+// -------------------------------------------------------------
+// Dynamic Site Settings
+// -------------------------------------------------------------
+model SiteSetting {
+  id          String   @id @default(cuid())
+  key         String   @unique
+  value       String
+  description String?
+  updatedAt   DateTime @updatedAt
+}
+
+// -------------------------------------------------------------
+// Administrative Audit Logs
+// -------------------------------------------------------------
+model AuditLog {
+  id         String   @id @default(cuid())
+  adminEmail String
+  action     String   // CREATE, UPDATE, DELETE, STATUS_CHANGE, LOGIN
+  entity     String   // ATTORNEY, PRACTICE_AREA, CONSULTATION, etc.
+  entityId   String?
+  details    String?
+  ipAddress  String?
+  createdAt  DateTime @default(now())
+}
