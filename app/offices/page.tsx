@@ -23,10 +23,10 @@ export default async function OfficesPage() {
               International Chambers Directory
             </span>
             <h1 className="font-serif text-4xl sm:text-5xl font-bold tracking-tight text-white leading-tight">
-              Our Offices Across Africa &amp; Key Global Financial Centers
+              Our Offices Across the United States &amp; Key Global Financial Centers
             </h1>
             <p className="text-slate-300 text-base leading-relaxed font-light">
-              Connecting local Nigerian judicial insight with cross-border commercial reach in London and the United States.
+              Connecting deep federal and state court expertise in New York, Washington D.C., Chicago, and Dallas with international cross-border commercial reach.
             </p>
           </div>
         </div>

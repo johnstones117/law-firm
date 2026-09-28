@@ -120,7 +120,7 @@ export default function Footer() {
             </Link>
 
             <p className="text-sm text-slate-400 leading-relaxed max-w-sm">
-              An elite international legal practice headquartered in Nigeria, representing sovereign governments, multinational conglomerates, financial institutions, and private clients in high-stakes litigation, corporate restructurings, and cross-border transactions.
+              An elite litigation and transactional law firm headquartered in New York, representing corporations, financial institutions, and private clients in high-stakes litigation, corporate restructurings, and cross-border transactions across the United States and internationally.
             </p>
 
             <div className="pt-2 flex items-center space-x-4">
@@ -268,15 +268,15 @@ export default function Footer() {
             </h4>
             <div className="space-y-4 text-xs text-slate-400">
               <div>
-                <strong className="text-white block font-medium">Lagos Head Office</strong>
-                <p className="mt-0.5">18A Adeola Odeku St, Victoria Island, Lagos</p>
-                <p className="mt-0.5 text-legal-gold-400 font-mono">+234 (01) 453-8900</p>
+                <strong className="text-white block font-medium">New York Head Office</strong>
+                <p className="mt-0.5">425 Lexington Avenue, 12th Floor, Midtown Manhattan, NY 10017</p>
+                <p className="mt-0.5 text-legal-gold-400 font-mono">+1 (212) 900-4800</p>
               </div>
 
               <div>
-                <strong className="text-white block font-medium">Abuja Office</strong>
-                <p className="mt-0.5">Plot 1042 Kur Mohammed Ave, Central Business District</p>
-                <p className="mt-0.5 text-legal-gold-400 font-mono">+234 (09) 291-4400</p>
+                <strong className="text-white block font-medium">Washington D.C. Office</strong>
+                <p className="mt-0.5">1250 Connecticut Avenue NW, Suite 700, Washington, D.C. 20036</p>
+                <p className="mt-0.5 text-legal-gold-400 font-mono">+1 (202) 550-7700</p>
               </div>
 
               <div>
@@ -297,20 +297,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Legal Disclaimer Box */}
-        <div className="mt-12 pt-8 border-t border-legal-navy-800 text-[11px] text-slate-400 leading-relaxed bg-legal-navy-900/30 p-6 rounded-sm">
-          <div className="flex items-start space-x-3">
-            <Shield className="w-5 h-5 text-legal-gold-400 flex-shrink-0 mt-0.5" />
-            <div>
-              <strong className="text-slate-300 block mb-1">
-                ATTORNEY ADVERTISING &amp; FORMAL LEGAL DISCLAIMER
-              </strong>
-              <p>
-                The information provided on this website is for general informational and educational purposes only and does not constitute formal legal, financial, or tax advice. Accessing, viewing, or submitting information through this website, electronic forms, or emails does not create an attorney-client relationship between you and Sterling &amp; Crest Legal Practitioners or any of its attorneys. An attorney-client relationship is strictly established upon the execution of a written Engagement Letter following satisfactory conflict-of-interest clearance. Prior case results or representative matters described herein do not guarantee a similar outcome in future legal proceedings.
-              </p>
-            </div>
-          </div>
-        </div>
+
 
         {/* Bottom Bar: Copyright & Compliance Links */}
         <div className="mt-8 pt-6 border-t border-legal-navy-900 flex flex-col md:flex-row items-center justify-between text-xs text-slate-400 space-y-4 md:space-y-0">

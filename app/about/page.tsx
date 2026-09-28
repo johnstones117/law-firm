@@ -16,7 +16,7 @@ import { prisma } from "@/lib/prisma";
 export const metadata = {
   title: "About Our Firm & Heritage",
   description:
-    "Discover the history, leadership, and unyielding principles that define Sterling & Crest Legal Practitioners across Lagos, Abuja, London, and Texas.",
+    "Discover the history, leadership, and unyielding principles that define Sterling & Crest Legal Practitioners across New York, Washington D.C., Chicago, and Dallas.",
 };
 
 export default async function AboutPage() {
@@ -40,7 +40,7 @@ export default async function AboutPage() {
               A Legacy of Uncompromising Trial Advocacy and Commercial Wisdom
             </h1>
             <p className="text-slate-300 text-base leading-relaxed font-light">
-              Founded over three decades ago, Sterling &amp; Crest has grown into one of Africa&rsquo;s most formidable legal practices, combining ruthless courtroom tenacity with deep cross-border transactional acumen.
+              Founded over three decades ago, Sterling &amp; Crest has grown into one of America&rsquo;s most formidable legal practices, combining ruthless courtroom tenacity with deep cross-border transactional acumen.
             </p>
           </div>
         </div>
@@ -58,7 +58,7 @@ export default async function AboutPage() {
                 Built to Protect Sovereign Capital, Safeguard Enterprises, and Champion Victims
               </h2>
               <p className="text-slate-600 text-sm leading-relaxed">
-                Under the visionary leadership of Chief Adebayo Sterling SAN and Victoria Crest, the firm was established with a singular directive: to provide clients in West Africa and international investors with the same caliber of representation found in London, New York, or Paris.
+                Under the visionary leadership of James A. Sterling and Victoria Crest, the firm was established with a singular directive: to provide clients across America and international investors with the same caliber of representation found in the world's leading legal markets.
               </p>
               <p className="text-slate-600 text-sm leading-relaxed">
                 Unlike traditional, fragmented law offices, our chambers operates as an integrated multidisciplinary force. When a corporate borrower faces unexpected receivership, our dispute resolution team stays bank enforcement while our restructuring partners renegotiate facility covenants. When an industrial casualty harms livelihoods, our trial lawyers pursue justice with uncompromising rigor.
@@ -114,7 +114,7 @@ export default async function AboutPage() {
               Chambers &amp; Referral Destinations
             </h2>
             <p className="text-slate-600 text-sm">
-              Headquartered in Lagos with strategic chambers in Abuja, London, and Dallas, Texas.
+              Headquartered in New York with additional chambers in Washington D.C., Chicago, and Dallas, Texas.
             </p>
           </div>
 

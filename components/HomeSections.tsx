@@ -55,7 +55,7 @@ export default function HomeSections({
               <div className="inline-flex items-center space-x-2 bg-legal-navy-900/80 border border-legal-gold-500/30 px-3.5 py-1.5 rounded-sm">
                 <Shield className="w-4 h-4 text-legal-gold-400" />
                 <span className="text-xs font-semibold uppercase tracking-widest text-legal-gold-300">
-                  Senior Advocates of Nigeria &bull; International Arbitrators
+                  American College of Trial Lawyers &bull; International Arbitrators
                 </span>
               </div>
 
@@ -98,7 +98,7 @@ export default function HomeSections({
                 </div>
                 <div>
                   <strong className="block font-serif text-2xl sm:text-3xl text-legal-gold-400 font-bold">
-                    ₦650B+
+                    $3.5B+
                   </strong>
                   <span className="text-xs text-slate-400 uppercase tracking-wide">
                     Transactions Structured
@@ -163,7 +163,7 @@ export default function HomeSections({
                 <div className="mt-4 pt-4 border-t border-legal-navy-800 flex items-center justify-between text-xs text-slate-400">
                   <span className="flex items-center text-slate-300">
                     <Phone className="w-3.5 h-3.5 mr-1.5 text-legal-gold-400" />
-                    +234 (01) 453-8900
+                    +1 (212) 900-4800
                   </span>
                   <span className="text-slate-400">Response within 2 hrs</span>
                 </div>
@@ -212,7 +212,7 @@ export default function HomeSections({
                   Immediate Debt &amp; Asset Protection
                 </h3>
                 <p className="text-xs text-slate-600 leading-relaxed">
-                  We stop creditor harassment, challenge unlawful receivership takeovers under CAMA 2020, and restructure corporate liabilities.
+                  We stop creditor harassment, challenge unlawful receivership takeovers under the U.S. Bankruptcy Code and UCC, and restructure corporate liabilities.
                 </p>
               </div>
 
@@ -222,7 +222,7 @@ export default function HomeSections({
                   Fierce Trial &amp; Appellate Advocacy
                 </h3>
                 <p className="text-xs text-slate-600 leading-relaxed">
-                  Led by Senior Advocates of Nigeria (SAN), we prepare every dispute for decisive victory before the courts and arbitral tribunals.
+                  Led by ABA-recognized Fellows and FACTL Members, we prepare every dispute for decisive victory before the courts and arbitral tribunals.
                 </p>
               </div>
 
@@ -232,7 +232,7 @@ export default function HomeSections({
                   Catastrophic Injury Recovery
                 </h3>
                 <p className="text-xs text-slate-600 leading-relaxed">
-                  Relentless pursuit of common law damages for industrial negligence, offshore casualties, and fatal accident victims.
+                  Relentless pursuit of damages for industrial negligence, offshore casualties, and fatal accident victims across the United States.
                 </p>
               </div>
 
@@ -242,7 +242,7 @@ export default function HomeSections({
                   Corporate Architecture &amp; M&amp;A
                 </h3>
                 <p className="text-xs text-slate-600 leading-relaxed">
-                  Structuring complex syndicated credit, sovereign energy concessions, and FinTech market entries across Africa.
+                  Structuring complex syndicated credit, energy concessions, and FinTech market entries across the US and global markets.
                 </p>
               </div>
             </div>
@@ -277,7 +277,7 @@ export default function HomeSections({
                 Confidential Contact
               </h3>
               <p className="text-slate-300 text-sm leading-relaxed">
-                Call our direct chambers line at <strong className="text-white">+234 (01) 453-8900</strong> or submit our secure intake evaluation form.
+                Call our direct chambers line at <strong className="text-white">+1 (212) 900-4800</strong> or submit our secure intake evaluation form.
               </p>
             </div>
 
@@ -389,7 +389,7 @@ export default function HomeSections({
               Meet Our Senior Partners &amp; Advocates
             </h2>
             <p className="text-slate-600 text-sm">
-              Distinguished courtroom trial lawyers, Senior Advocates of Nigeria, and cross-border commercial advisors.
+              Distinguished courtroom trial lawyers, ABA Fellows, and cross-border commercial advisors.
             </p>
           </div>
 
@@ -654,7 +654,7 @@ export default function HomeSections({
                   </div>
                   <div>
                     <span className="block text-slate-400 text-[11px]">Direct Chambers Telephone</span>
-                    <strong className="text-white text-sm font-mono">+234 (01) 453-8900</strong>
+                    <strong className="text-white text-sm font-mono">+1 (212) 900-4800</strong>
                   </div>
                 </div>
 

@@ -69,7 +69,7 @@ export default function Header() {
           <div className="flex items-center space-x-6">
             <span className="flex items-center text-legal-gold-400 font-medium">
               <Shield className="w-3.5 h-3.5 mr-1.5 text-legal-gold-400" />
-              Lagos &bull; Abuja &bull; London &bull; Dallas
+              New York &bull; Washington D.C. &bull; Chicago &bull; Dallas
             </span>
             <span className="flex items-center text-slate-300 hover:text-white">
               <Clock className="w-3 h-3 mr-1.5 text-legal-gold-400" />
@@ -79,11 +79,11 @@ export default function Header() {
 
           <div className="flex items-center space-x-6">
             <Link
-              href="tel:+23414538900"
+              href="tel:+12129004800"
               className="flex items-center font-medium text-slate-200 hover:text-legal-gold-400 transition"
             >
               <Phone className="w-3 h-3 mr-1.5 text-legal-gold-400" />
-              Direct Chambers: +234 (01) 453-8900
+              Direct Chambers: +1 (212) 900-4800
             </Link>
             <Link
               href="/search"
@@ -93,12 +93,7 @@ export default function Header() {
               <Search className="w-3.5 h-3.5 mr-1" />
               <span>Search</span>
             </Link>
-            <Link
-              href="/admin/login"
-              className="text-slate-400 hover:text-legal-gold-300 transition text-[11px] font-mono"
-            >
-              Admin Portal
-            </Link>
+
           </div>
         </div>
       </div>
@@ -233,11 +228,11 @@ export default function Header() {
         <div className="lg:hidden bg-legal-navy-950 border-b border-legal-navy-800 px-6 py-6 space-y-4 max-h-[85vh] overflow-y-auto">
           <div className="border-b border-legal-navy-800 pb-3">
             <Link
-              href="tel:+23414538900"
+              href="tel:+12129004800"
               className="flex items-center text-sm font-medium text-legal-gold-400"
             >
               <Phone className="w-4 h-4 mr-2" />
-              Call Chambers: +234 (01) 453-8900
+              Call Chambers: +1 (212) 900-4800
             </Link>
           </div>
 
