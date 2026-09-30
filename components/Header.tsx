@@ -262,12 +262,6 @@ export default function Header() {
             >
               Request Free Consultation
             </Link>
-            <Link
-              href="/admin/login"
-              className="text-center text-slate-400 hover:text-slate-200 text-xs py-2 font-mono"
-            >
-              Admin &bull; Counsel Login
-            </Link>
           </div>
         </div>
       )}
