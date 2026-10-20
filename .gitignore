@@ -25,6 +25,7 @@ Thumbs.db
 .env.development
 .env.test
 .env.production
+.env*
 
 # Vercel
 .vercel
@@ -48,4 +49,6 @@ next-env.d.ts
 *.sln
 *.sw?
 
-.vercel
+# Local tools & screenshots
+bin/
+*.png
