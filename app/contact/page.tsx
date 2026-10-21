@@ -1,11 +1,11 @@
-import { prisma } from "@/lib/prisma";
+﻿import { prisma } from "@/lib/prisma";
 import ContactForm from "@/components/ContactForm";
 import { Phone, Mail, MapPin, Clock, Shield, ExternalLink } from "lucide-react";
 
 export const metadata = {
   title: "Contact Chambers | Principal & International Offices",
   description:
-    "Direct contact details, telephone numbers, physical addresses, and interactive inquiry form for Sterling & Crest Legal Practitioners.",
+    "Direct contact details, telephone numbers, physical addresses, and interactive inquiry form for Crest & Sterling Alliance.",
 };
 
 export default async function ContactPage() {

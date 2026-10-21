@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
@@ -76,7 +76,7 @@ export default function AdminLoginPage() {
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="senior.partner@sterlingcrestlaw.com"
+                placeholder="senior.partner@crestandsterling.com"
                 className="w-full px-3.5 py-2.5 pl-10 bg-legal-navy-950 border border-legal-navy-700 focus:border-legal-gold-400 text-white text-sm rounded-sm outline-none transition"
               />
               <Mail className="w-4 h-4 text-slate-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
@@ -116,7 +116,7 @@ export default function AdminLoginPage() {
             <span>Encrypted Session &bull; IP Logged &bull; RBAC Protected</span>
           </div>
           <p className="text-[10px] text-slate-500 font-mono">
-            Default seed: senior.partner@sterlingcrestlaw.com / Sterling@Admin2026!
+            Default seed: senior.partner@crestandsterling.com / Sterling@Admin2026!
           </p>
         </div>
       </div>

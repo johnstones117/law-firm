@@ -182,13 +182,13 @@ export default function HomeSections({
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-6 space-y-6">
               <span className="text-xs font-bold uppercase tracking-widest text-legal-gold-600 block">
-                The Heritage of Sterling &amp; Crest
+                The Heritage of Crest &amp; Sterling Alliance
               </span>
               <h2 className="font-serif text-3xl sm:text-4xl text-legal-navy-950 font-bold leading-tight">
                 Navigating Unprecedented Challenges With Decisive Legal Precision
               </h2>
               <p className="text-slate-600 text-base leading-relaxed">
-                At Sterling &amp; Crest, our practice architecture reflects the harsh realities of commercial life: financial crises often trigger existential litigation, regulatory turbulence threatens viable enterprises, and catastrophic industrial accidents destabilize corporate and family legacies.
+                At Crest &amp; Sterling Alliance, our practice architecture reflects the harsh realities of commercial life: financial crises often trigger existential litigation, regulatory turbulence threatens viable enterprises, and catastrophic industrial accidents destabilize corporate and family legacies.
               </p>
               <p className="text-slate-600 text-base leading-relaxed">
                 By uniting corporate restructuring, aggressive trial advocacy, and high-stakes tort recovery under one roof, our chambers provides full-spectrum relief. We halt aggressive creditor actions, fight multinational insurers, and structure multimillion-dollar transactions with equal mastery.

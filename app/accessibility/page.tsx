@@ -1,9 +1,9 @@
-import { CheckCircle2, Shield } from "lucide-react";
+﻿import { CheckCircle2, Shield } from "lucide-react";
 
 export const metadata = {
   title: "Accessibility Statement (WCAG 2.2 AA)",
   description:
-    "Sterling & Crest's commitment to digital accessibility, screen-reader compatibility, and WCAG 2.2 AA conformance.",
+    "Crest & Sterling's commitment to digital accessibility, screen-reader compatibility, and WCAG 2.2 AA conformance.",
 };
 
 export default function AccessibilityPage() {
@@ -18,7 +18,7 @@ export default function AccessibilityPage() {
             Accessibility Statement
           </h1>
           <p className="text-slate-400 text-xs mt-2">
-            Sterling &amp; Crest Legal Practitioners &bull; Universal Web Standards
+            Crest &amp; Sterling Alliance &bull; Universal Web Standards
           </p>
         </div>
       </section>
@@ -26,7 +26,7 @@ export default function AccessibilityPage() {
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 prose prose-slate text-sm text-slate-700 leading-relaxed space-y-6">
           <p>
-            Sterling &amp; Crest is committed to ensuring that our digital portal is accessible to all individuals, including persons with visual, auditory, cognitive, and motor impairments. We continually optimize our web presence in accordance with the <strong>Web Content Accessibility Guidelines (WCAG) 2.2 Level AA</strong> standards.
+            Crest &amp; Sterling is committed to ensuring that our digital portal is accessible to all individuals, including persons with visual, auditory, cognitive, and motor impairments. We continually optimize our web presence in accordance with the <strong>Web Content Accessibility Guidelines (WCAG) 2.2 Level AA</strong> standards.
           </p>
 
           <h2 className="font-serif text-xl font-bold text-legal-navy-950">Measures Taken to Support Accessibility</h2>
@@ -51,7 +51,7 @@ export default function AccessibilityPage() {
 
           <h2 className="font-serif text-xl font-bold text-legal-navy-950">Feedback &amp; Assistance</h2>
           <p>
-            If you encounter difficulty accessing any content on this website, please contact our Technical Desk at <a href="mailto:accessibility@sterlingcrestlaw.com" className="text-legal-gold-700 underline">accessibility@sterlingcrestlaw.com</a> or telephone chambers at +234 (01) 453-8900.
+            If you encounter difficulty accessing any content on this website, please contact our Technical Desk at <a href="mailto:accessibility@crestandsterling.com" className="text-legal-gold-700 underline">accessibility@crestandsterling.com</a> or telephone chambers at +234 (01) 453-8900.
           </p>
         </div>
       </section>

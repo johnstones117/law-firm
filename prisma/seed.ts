@@ -1,10 +1,10 @@
-import { PrismaClient } from "@prisma/client";
+﻿import { PrismaClient } from "@prisma/client";
 import bcrypt from "bcryptjs";
 
 const prisma = new PrismaClient();
 
 async function main() {
-  console.log("🌱 Starting Sterling & Crest Law Firm database seed...");
+  console.log("🌱 Starting Crest & Sterling Law Firm database seed...");
 
   // 1. Clear existing records to ensure clean state
   await prisma.auditLog.deleteMany();
@@ -34,7 +34,7 @@ async function main() {
 
   const superAdmin = await prisma.adminUser.create({
     data: {
-      email: process.env.INITIAL_ADMIN_EMAIL || "senior.partner@sterlingcrestlaw.com",
+      email: process.env.INITIAL_ADMIN_EMAIL || "senior.partner@crestandsterling.com",
       passwordHash,
       name: "James A. Sterling, Esq.",
       role: "SUPER_ADMIN",
@@ -266,7 +266,7 @@ async function main() {
         "James A. Sterling is one of America's preeminent trial attorneys and commercial arbitrators. A Fellow of the American College of Trial Lawyers, he has argued over 140 landmark appeals before the U.S. Courts of Appeals and the Supreme Court, setting vital precedents in corporate insolvency, energy regulation, and arbitral enforcement.\n\nHe serves as a Fellow of the Chartered Institute of Arbitrators (UK) and frequently sits as sole arbitrator and tribunal chairman in New York, London, and Paris under ICC, AAA/ICDR, and JAMS rules. He advises corporate boards on existential regulatory crises and bet-the-company litigation.",
       photoUrl:
         "https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=800&q=80",
-      email: "j.sterling@sterlingcrestlaw.com",
+      email: "j.sterling@crestandsterling.com",
       phone: "+1 (212) 900-4801",
       officeLocation: "New York Principal Chambers",
       admissions: JSON.stringify([
@@ -300,10 +300,10 @@ async function main() {
       designation: "Head of Corporate, M&A & Private Equity",
       bio: "Victoria Crest is a distinguished corporate finance and cross-border M&A specialist. She has guided over $4.2B in strategic transactions across North America, Europe, and emerging markets.",
       detailedBio:
-        "Victoria oversees the firm's strategic operations while heading the premier Corporate & Commercial practice group. Prior to co-founding Sterling & Crest, she practiced with Am Law 100 firms in New York and London. Victoria advises blue-chip conglomerates, private equity sponsors, and sovereign wealth entities on divestitures, corporate governance overhauls, and public-private partnerships.\n\nHer reputation for rigorous deal architecture and swift regulatory clearance makes her the advisor of choice for high-profile market entries and multi-jurisdictional acquisitions.",
+        "Victoria oversees the firm's strategic operations while heading the premier Corporate & Commercial practice group. Prior to co-founding Crest & Sterling, she practiced with Am Law 100 firms in New York and London. Victoria advises blue-chip conglomerates, private equity sponsors, and sovereign wealth entities on divestitures, corporate governance overhauls, and public-private partnerships.\n\nHer reputation for rigorous deal architecture and swift regulatory clearance makes her the advisor of choice for high-profile market entries and multi-jurisdictional acquisitions.",
       photoUrl:
         "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
-      email: "v.crest@sterlingcrestlaw.com",
+      email: "v.crest@crestandsterling.com",
       phone: "+1 (212) 900-4802",
       officeLocation: "New York Principal Chambers",
       admissions: JSON.stringify([
@@ -337,7 +337,7 @@ async function main() {
         "Jonathan Reaves combines twenty years of trial experience with an empathetic, client-centered approach. Having trained at the nation's leading plaintiff trial academies in Texas and New York, Jonathan brings relentless courtroom tenacity to every case. He has recovered over $180 million in structured compensation and damages for injured workers, grieving families, and accident victims.\n\nHe operates with a strict guarantee: clients are never treated like numbers, and his trial team prepares every meritorious case for trial rather than settling for discount insurance payouts.",
       photoUrl:
         "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80",
-      email: "j.reaves@sterlingcrestlaw.com",
+      email: "j.reaves@crestandsterling.com",
       phone: "+1 (212) 900-4803",
       officeLocation: "New York Principal Chambers",
       admissions: JSON.stringify([
@@ -372,7 +372,7 @@ async function main() {
         "Marcus Sterling has spent over two decades navigating acute financial distress for major commercial borrowers and secured lenders. He is renowned for speaking in straight lines, dispelling confusion, and engineering swift, legally enforceable debt workouts.\n\nWhether stopping immediate bank repossessions, halting unlawful foreclosure proceedings, or restructuring corporate debentures, Marcus's team safeguards businesses and enables entrepreneurs to protect their livelihoods through challenging financial climates.",
       photoUrl:
         "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
-      email: "m.sterling@sterlingcrestlaw.com",
+      email: "m.sterling@crestandsterling.com",
       phone: "+1 (212) 900-4804",
       officeLocation: "New York Principal Chambers",
       admissions: JSON.stringify([
@@ -407,7 +407,7 @@ async function main() {
         "Ashley advises domestic and international financial institutions, asset managers, and emerging FinTech companies. She has structured syndicated loans exceeding $3.5 billion, designed regulatory compliance architectures for electronic money institutions, and assisted clients in obtaining critical licenses from the OCC, Federal Reserve, and SEC.",
       photoUrl:
         "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=800&q=80",
-      email: "a.morgan@sterlingcrestlaw.com",
+      email: "a.morgan@crestandsterling.com",
       phone: "+1 (202) 550-7701",
       officeLocation: "Washington D.C. Chambers",
       admissions: JSON.stringify([
@@ -442,7 +442,7 @@ async function main() {
         "Amina is a certified data protection compliance expert and intellectual property attorney. She has managed trademark portfolios across 20 jurisdictions and drafted comprehensive enterprise agreements for high-growth tech companies. Her clients include Series A through Series D startups and Fortune 500 technology divisions.",
       photoUrl:
         "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?auto=format&fit=crop&w=800&q=80",
-      email: "a.bell@sterlingcrestlaw.com",
+      email: "a.bell@crestandsterling.com",
       phone: "+1 (312) 480-9902",
       officeLocation: "Chicago Chambers",
       admissions: JSON.stringify([
@@ -773,7 +773,7 @@ Too often in multi-million-dollar cross-border commercial transactions, the disp
       clientRole: "Executive Vice-Chairman",
       company: "Keystone Energy Holdings",
       quote:
-        "Sterling & Crest demonstrated unmatched tactical precision when our board was facing severe regulatory scrutiny and creditor threats in our oilfield concessions. James Sterling and Victoria Crest stabilized our position within days. Their strategic litigation and commercial wisdom saved our operational license.",
+        "Crest & Sterling demonstrated unmatched tactical precision when our board was facing severe regulatory scrutiny and creditor threats in our oilfield concessions. James Sterling and Victoria Crest stabilized our position within days. Their strategic litigation and commercial wisdom saved our operational license.",
       rating: 5,
       caseType: "Energy Dispute & Regulatory Defense",
       isFeatured: true,
@@ -806,7 +806,7 @@ Too often in multi-million-dollar cross-border commercial transactions, the disp
       clientRole: "Principal Trustee",
       company: "The Egerton Family Estates & Trusts",
       quote:
-        "We were facing the potential loss of a historic family commercial property in Manhattan due to complex predatory claims and title disputes. Sterling & Crest not only halted unlawful seizures in their tracks but successfully overturned decades of fraudulent encumbrances. I trust them completely.",
+        "We were facing the potential loss of a historic family commercial property in Manhattan due to complex predatory claims and title disputes. Crest & Sterling not only halted unlawful seizures in their tracks but successfully overturned decades of fraudulent encumbrances. I trust them completely.",
       rating: 5,
       caseType: "Real Estate & Title Litigation",
       isFeatured: true,
@@ -828,7 +828,7 @@ Too often in multi-million-dollar cross-border commercial transactions, the disp
       addressLine2: "Midtown Manhattan, New York, NY",
       postalCode: "10017",
       phone: "+1 (212) 900-4800",
-      email: "newyork@sterlingcrestlaw.com",
+      email: "newyork@crestandsterling.com",
       hours: "Monday – Friday: 8:00 AM – 6:00 PM (EST)",
       mapUrl: "https://maps.google.com/?q=425+Lexington+Avenue+New+York+NY",
       isPrimary: true,
@@ -841,7 +841,7 @@ Too often in multi-million-dollar cross-border commercial transactions, the disp
       addressLine2: "Washington, D.C.",
       postalCode: "20036",
       phone: "+1 (202) 550-7700",
-      email: "dc@sterlingcrestlaw.com",
+      email: "dc@crestandsterling.com",
       hours: "Monday – Friday: 8:30 AM – 5:30 PM (EST)",
       mapUrl: "https://maps.google.com/?q=1250+Connecticut+Avenue+NW+Washington+DC",
       isPrimary: false,
@@ -854,7 +854,7 @@ Too often in multi-million-dollar cross-border commercial transactions, the disp
       addressLine2: "Chicago, IL",
       postalCode: "60654",
       phone: "+1 (312) 480-9900",
-      email: "chicago@sterlingcrestlaw.com",
+      email: "chicago@crestandsterling.com",
       hours: "Monday – Friday: 8:30 AM – 5:30 PM (CST)",
       mapUrl: "https://maps.google.com/?q=300+N+LaSalle+Street+Chicago+IL",
       isPrimary: false,
@@ -867,7 +867,7 @@ Too often in multi-million-dollar cross-border commercial transactions, the disp
       addressLine2: "Dallas, TX",
       postalCode: "75201",
       phone: "+1 (214) 440-1414",
-      email: "dallas@sterlingcrestlaw.com",
+      email: "dallas@crestandsterling.com",
       hours: "Monday – Friday: 8:00 AM – 5:00 PM (CST)",
       mapUrl: "https://maps.google.com/?q=2200+Ross+Avenue+Dallas+Texas",
       isPrimary: false,
@@ -885,7 +885,7 @@ Too often in multi-million-dollar cross-border commercial transactions, the disp
     {
       question: "How do I schedule an initial consultation or case evaluation?",
       answer:
-        "You can schedule a consultation by completing our secure online Consultation Request form, calling our principal chambers directly at +1 (212) 900-4800, or emailing intake@sterlingcrestlaw.com. Our intake committee reviews all inquiries within two business hours and contacts you to confirm availability with the appropriate Practice Group Leader.",
+        "You can schedule a consultation by completing our secure online Consultation Request form, calling our principal chambers directly at +1 (212) 900-4800, or emailing intake@crestandsterling.com. Our intake committee reviews all inquiries within two business hours and contacts you to confirm availability with the appropriate Practice Group Leader.",
       category: "CONSULTATIONS",
       displayOrder: 1,
     },
@@ -1000,17 +1000,17 @@ Too often in multi-million-dollar cross-border commercial transactions, the disp
 
   // 12. Site Settings
   const defaultSettings = [
-    { key: "FIRM_NAME", value: "Sterling & Crest Legal Practitioners", description: "Official firm name" },
+    { key: "FIRM_NAME", value: "Crest & Sterling Alliance", description: "Official firm name" },
     { key: "FIRM_TAGLINE", value: "Strategic Legal Counsel for Complex Matters", description: "Firm slogan" },
     { key: "PRIMARY_PHONE", value: "+1 (212) 900-4800", description: "Main phone line" },
     { key: "SECONDARY_PHONE", value: "+1 (202) 550-7700", description: "Washington D.C. phone line" },
-    { key: "PRIMARY_EMAIL", value: "counsel@sterlingcrestlaw.com", description: "Main inquiry email" },
-    { key: "CONSULTATION_EMAIL", value: "intake@sterlingcrestlaw.com", description: "Direct intake email" },
+    { key: "PRIMARY_EMAIL", value: "counsel@crestandsterling.com", description: "Main inquiry email" },
+    { key: "CONSULTATION_EMAIL", value: "intake@crestandsterling.com", description: "Direct intake email" },
     { key: "EMERGENCY_LINE", value: "+1 (212) 900-4899", description: "Emergency after-hours line" },
     { key: "LINKEDIN_URL", value: "https://linkedin.com/company/sterling-crest-law", description: "LinkedIn" },
-    { key: "X_TWITTER_URL", value: "https://x.com/sterlingcrestlaw", description: "X (Twitter)" },
-    { key: "FACEBOOK_URL", value: "https://facebook.com/sterlingcrestlaw", description: "Facebook" },
-    { key: "INSTAGRAM_URL", value: "https://instagram.com/sterlingcrestlaw", description: "Instagram" },
+    { key: "X_TWITTER_URL", value: "https://x.com/crestandsterling", description: "X (Twitter)" },
+    { key: "FACEBOOK_URL", value: "https://facebook.com/crestandsterling", description: "Facebook" },
+    { key: "INSTAGRAM_URL", value: "https://instagram.com/crestandsterling", description: "Instagram" },
     { key: "ANALYTICS_GA4_ID", value: "", description: "Google Analytics 4 Measurement ID" },
     { key: "LEGAL_DISCLAIMER_TEXT", value: "Information provided on this website is for general informational purposes and does not constitute formal legal advice. Communication through this website does not establish an attorney-client relationship.", description: "Standard disclaimer text" },
   ];

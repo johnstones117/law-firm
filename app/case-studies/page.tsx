@@ -1,11 +1,11 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Scale, ArrowRight, Shield, Award, CheckCircle2 } from "lucide-react";
 import { prisma } from "@/lib/prisma";
 
 export const metadata = {
   title: "Representative Matters & Case Studies",
   description:
-    "Explore landmark dispute outcomes, multimillion-dollar debt restructurings, and precedent-setting corporate transactions handled by Sterling & Crest.",
+    "Explore landmark dispute outcomes, multimillion-dollar debt restructurings, and precedent-setting corporate transactions handled by Crest & Sterling.",
 };
 
 export default async function CaseStudiesPage() {

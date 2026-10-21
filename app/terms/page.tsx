@@ -1,7 +1,7 @@
-export const metadata = {
+﻿export const metadata = {
   title: "Terms of Use",
   description:
-    "Terms and conditions governing the use of the Sterling & Crest website and electronic consultation portals.",
+    "Terms and conditions governing the use of the Crest & Sterling website and electronic consultation portals.",
 };
 
 export default function TermsPage() {
@@ -16,7 +16,7 @@ export default function TermsPage() {
             Terms of Website Use
           </h1>
           <p className="text-slate-400 text-xs mt-2">
-            Last Updated: January 2026 &bull; Sterling &amp; Crest Legal Practitioners
+            Last Updated: January 2026 &bull; Crest &amp; Sterling Alliance
           </p>
         </div>
       </section>
@@ -35,12 +35,12 @@ export default function TermsPage() {
 
           <h2 className="font-serif text-xl font-bold text-legal-navy-950">3. Intellectual Property Rights</h2>
           <p>
-            All text, branding, graphics, publication texts, case analyses, and logos on this website are the proprietary intellectual property of Sterling &amp; Crest Legal Practitioners and are protected under Nigerian copyright laws and international treaties. No portion may be reproduced without prior written consent.
+            All text, branding, graphics, publication texts, case analyses, and logos on this website are the proprietary intellectual property of Crest &amp; Sterling Alliance and are protected under Nigerian copyright laws and international treaties. No portion may be reproduced without prior written consent.
           </p>
 
           <h2 className="font-serif text-xl font-bold text-legal-navy-950">4. Limitation of Liability</h2>
           <p>
-            Under no circumstances shall Sterling &amp; Crest Legal Practitioners, its Senior Partners, or associate counsel be held liable for any damages, losses, or legal consequences arising from the use or inability to use the information published on this website.
+            Under no circumstances shall Crest &amp; Sterling Alliance, its Senior Partners, or associate counsel be held liable for any damages, losses, or legal consequences arising from the use or inability to use the information published on this website.
           </p>
         </div>
       </section>

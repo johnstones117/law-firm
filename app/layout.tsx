@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -20,8 +20,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Sterling & Crest Legal Practitioners",
-    default: "Sterling & Crest Legal Practitioners | Commercial Litigation, Restructuring & Corporate Counsel",
+    template: "%s | Crest & Sterling Alliance",
+    default: "Crest & Sterling Alliance | Commercial Litigation, Restructuring & Corporate Counsel",
   },
   description:
     "An elite international legal practice headquartered in Nigeria with chambers in Lagos, Abuja, London, and Texas. Renowned for strategic trial advocacy, complex debt restructuring, corporate M&A, and personal injury litigation.",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   ],
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"),
   openGraph: {
-    title: "Sterling & Crest Legal Practitioners",
+    title: "Crest & Sterling Alliance",
     description:
       "Strategic Legal Counsel for Complex Matters — Commercial Litigation, Insolvency, and Corporate Advisory.",
     type: "website",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sterling & Crest Legal Practitioners",
+    title: "Crest & Sterling Alliance",
     description: "Strategic Legal Counsel for Complex Matters.",
   },
 };

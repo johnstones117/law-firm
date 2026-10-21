@@ -318,7 +318,7 @@ export default function AdminDashboardPage() {
           </div>
           <div>
             <span className="font-serif text-lg font-bold text-white tracking-wide block leading-none">
-              Sterling &amp; Crest
+              Crest &amp; Sterling Alliance
             </span>
             <span className="text-[10px] text-legal-gold-400 uppercase tracking-widest block font-medium">
               Chambers Administrative Console
@@ -894,7 +894,7 @@ export default function AdminDashboardPage() {
                           value={newAttorney.email}
                           onChange={(e) => setNewAttorney({ ...newAttorney, email: e.target.value })}
                           className="w-full px-3 py-2 border rounded"
-                          placeholder="counsel@sterlingcrestlaw.com"
+                          placeholder="counsel@crestandsterling.com"
                         />
                       </div>
 

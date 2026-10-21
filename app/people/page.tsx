@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import Image from "next/image";
 import { Scale, ArrowRight, Shield, MapPin, Mail, Phone } from "lucide-react";
 import { prisma } from "@/lib/prisma";
@@ -6,7 +6,7 @@ import { prisma } from "@/lib/prisma";
 export const metadata = {
   title: "Partners & Advocates | Our People",
   description:
-    "Meet the Senior Advocates of Nigeria, Managing Partners, and specialized courtroom advocates of Sterling & Crest Legal Practitioners.",
+    "Meet the Senior Advocates of Nigeria, Managing Partners, and specialized courtroom advocates of Crest & Sterling Alliance.",
 };
 
 export default async function PeoplePage() {

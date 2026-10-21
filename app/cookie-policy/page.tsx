@@ -1,7 +1,7 @@
-export const metadata = {
+﻿export const metadata = {
   title: "Cookie Policy",
   description:
-    "Information regarding our use of strictly necessary, analytical, and functional cookies at Sterling & Crest.",
+    "Information regarding our use of strictly necessary, analytical, and functional cookies at Crest & Sterling.",
 };
 
 export default function CookiePolicyPage() {
@@ -16,7 +16,7 @@ export default function CookiePolicyPage() {
             Cookie Policy
           </h1>
           <p className="text-slate-400 text-xs mt-2">
-            Last Updated: January 2026 &bull; Sterling &amp; Crest Legal Practitioners
+            Last Updated: January 2026 &bull; Crest &amp; Sterling Alliance
           </p>
         </div>
       </section>

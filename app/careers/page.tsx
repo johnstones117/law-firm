@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Briefcase, MapPin, Clock, ArrowRight, Shield, Award } from "lucide-react";
 import { prisma } from "@/lib/prisma";
 import { formatDate } from "@/lib/utils";
@@ -6,7 +6,7 @@ import { formatDate } from "@/lib/utils";
 export const metadata = {
   title: "Careers & Pupillage | Join Chambers",
   description:
-    "Explore career opportunities, associate counsel positions, and pupillage programs at Sterling & Crest Legal Practitioners.",
+    "Explore career opportunities, associate counsel positions, and pupillage programs at Crest & Sterling Alliance.",
 };
 
 export default async function CareersPage() {

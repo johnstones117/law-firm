@@ -1,10 +1,10 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { ShieldAlert, ArrowRight } from "lucide-react";
 
 export const metadata = {
   title: "Formal Legal Disclaimer & Professional Notice",
   description:
-    "Formal attorney advertising notice, conflict-of-interest disclaimer, and legal representation guidelines for Sterling & Crest Legal Practitioners.",
+    "Formal attorney advertising notice, conflict-of-interest disclaimer, and legal representation guidelines for Crest & Sterling Alliance.",
 };
 
 export default function DisclaimerPage() {
@@ -19,7 +19,7 @@ export default function DisclaimerPage() {
             Formal Legal Disclaimer &amp; Notice
           </h1>
           <p className="text-slate-400 text-xs mt-2">
-            Sterling &amp; Crest Legal Practitioners &bull; Senior Advocates of Nigeria
+            Crest &amp; Sterling Alliance &bull; Senior Advocates of Nigeria
           </p>
         </div>
       </section>

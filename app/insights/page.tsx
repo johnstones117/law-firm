@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, BookOpen, Clock, Calendar, Search } from "lucide-react";
 import { prisma } from "@/lib/prisma";
@@ -7,7 +7,7 @@ import { formatDate } from "@/lib/utils";
 export const metadata = {
   title: "Insights, Legal Updates & Publications",
   description:
-    "Authoritative legal commentary, regulatory alerts, and judicial analysis from the partners of Sterling & Crest Legal Practitioners.",
+    "Authoritative legal commentary, regulatory alerts, and judicial analysis from the partners of Crest & Sterling Alliance.",
 };
 
 interface Props {

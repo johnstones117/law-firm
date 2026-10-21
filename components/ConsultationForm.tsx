@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -381,7 +381,7 @@ export default function ConsultationForm({
             className="mt-1 h-4 w-4 rounded border-slate-400 text-legal-gold-600 focus:ring-legal-gold-500"
           />
           <span className="text-xs text-slate-700 leading-relaxed">
-            <strong className="text-legal-navy-950 font-semibold">Mandatory Legal Acknowledgment:</strong> I understand that submitting this inquiry or communicating with Sterling &amp; Crest Legal Practitioners through this website does not establish an attorney-client relationship. An attorney-client relationship is created solely upon the mutual execution of an Engagement Letter following conflict clearance.
+            <strong className="text-legal-navy-950 font-semibold">Mandatory Legal Acknowledgment:</strong> I understand that submitting this inquiry or communicating with Crest &amp; Sterling Alliance through this website does not establish an attorney-client relationship. An attorney-client relationship is created solely upon the mutual execution of an Engagement Letter following conflict clearance.
           </span>
         </label>
       </div>

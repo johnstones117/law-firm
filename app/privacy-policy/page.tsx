@@ -1,10 +1,10 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Shield } from "lucide-react";
 
 export const metadata = {
   title: "Privacy Policy & Data Protection",
   description:
-    "Sterling & Crest Privacy Policy explaining our data protection protocols under the Nigeria Data Protection Act (NDPA) and global privacy standards.",
+    "Crest & Sterling Privacy Policy explaining our data protection protocols under the Nigeria Data Protection Act (NDPA) and global privacy standards.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -19,7 +19,7 @@ export default function PrivacyPolicyPage() {
             Privacy Policy &amp; Data Protection Protocol
           </h1>
           <p className="text-slate-400 text-xs mt-2">
-            Last Updated: January 2026 &bull; Sterling &amp; Crest Legal Practitioners
+            Last Updated: January 2026 &bull; Crest &amp; Sterling Alliance
           </p>
         </div>
       </section>
@@ -27,7 +27,7 @@ export default function PrivacyPolicyPage() {
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 prose prose-slate text-sm text-slate-700 leading-relaxed space-y-6">
           <p>
-            Sterling &amp; Crest Legal Practitioners (&ldquo;the Firm&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;) is committed to preserving the confidentiality, integrity, and security of all personal and corporate information entrusted to our chambers. This Privacy Policy outlines our procedures for collecting, processing, and safeguarding data pursuant to the <strong>Nigeria Data Protection Act (NDPA) 2023</strong> and international data protection standards.
+            Crest &amp; Sterling Alliance (&ldquo;the Firm&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;) is committed to preserving the confidentiality, integrity, and security of all personal and corporate information entrusted to our chambers. This Privacy Policy outlines our procedures for collecting, processing, and safeguarding data pursuant to the <strong>Nigeria Data Protection Act (NDPA) 2023</strong> and international data protection standards.
           </p>
 
           <h2 className="font-serif text-xl font-bold text-legal-navy-950">1. Information We Collect</h2>
@@ -67,11 +67,11 @@ export default function PrivacyPolicyPage() {
             <br />
             <strong>Data Protection Desk</strong>
             <br />
-            Sterling &amp; Crest Legal Practitioners
+            Crest &amp; Sterling Alliance
             <br />
             18A Adeola Odeku Street, Victoria Island, Lagos
             <br />
-            Email: <a href="mailto:privacy@sterlingcrestlaw.com" className="text-legal-gold-700 underline">privacy@sterlingcrestlaw.com</a>
+            Email: <a href="mailto:privacy@crestandsterling.com" className="text-legal-gold-700 underline">privacy@crestandsterling.com</a>
           </p>
         </div>
       </section>

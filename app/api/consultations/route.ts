@@ -58,7 +58,7 @@ export async function POST(req: NextRequest) {
     // 2. Dispatch Confirmation Email to Client
     await sendEmail({
       to: email,
-      subject: `[${referenceNumber}] Consultation Request Acknowledged — Sterling & Crest`,
+      subject: `[${referenceNumber}] Consultation Request Acknowledged — Crest & Sterling Alliance`,
       html: consultationClientEmailTemplate({
         fullName,
         referenceNumber,
@@ -68,7 +68,7 @@ export async function POST(req: NextRequest) {
 
     // 3. Dispatch Intake Alert to Firm Admin Team
     const adminIntakeEmail =
-      process.env.NEXT_PUBLIC_CONSULTATIONS_EMAIL || "intake@sterlingcrestlaw.com";
+      process.env.NEXT_PUBLIC_CONSULTATIONS_EMAIL || "intake@crestandsterling.com";
     await sendEmail({
       to: adminIntakeEmail,
       subject: `⚖️ NEW INTAKE: ${fullName} (${matterType}) [${referenceNumber}]`,

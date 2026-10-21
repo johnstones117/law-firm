@@ -1,11 +1,11 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { prisma } from "@/lib/prisma";
 import { HelpCircle, ArrowRight, Shield } from "lucide-react";
 
 export const metadata = {
   title: "Frequently Asked Questions (FAQ)",
   description:
-    "Common inquiries regarding legal retainers, court appearances, fee structures, emergency injunctions, and consultation procedures at Sterling & Crest.",
+    "Common inquiries regarding legal retainers, court appearances, fee structures, emergency injunctions, and consultation procedures at Crest & Sterling.",
 };
 
 export default async function FaqPage() {

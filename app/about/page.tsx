@@ -16,7 +16,7 @@ import { prisma } from "@/lib/prisma";
 export const metadata = {
   title: "About Our Firm & Heritage",
   description:
-    "Discover the history, leadership, and unyielding principles that define Sterling & Crest Legal Practitioners across New York, Washington D.C., Chicago, and Dallas.",
+    "Discover the history, leadership, and unyielding principles that define Crest & Sterling Alliance across New York, Washington D.C., Chicago, and Dallas.",
 };
 
 export default async function AboutPage() {
@@ -40,7 +40,7 @@ export default async function AboutPage() {
               A Legacy of Uncompromising Trial Advocacy and Commercial Wisdom
             </h1>
             <p className="text-slate-300 text-base leading-relaxed font-light">
-              Founded over three decades ago, Sterling &amp; Crest has grown into one of America&rsquo;s most formidable legal practices, combining ruthless courtroom tenacity with deep cross-border transactional acumen.
+              Founded over three decades ago, Crest &amp; Sterling has grown into one of America&rsquo;s most formidable legal practices, combining ruthless courtroom tenacity with deep cross-border transactional acumen.
             </p>
           </div>
         </div>
@@ -81,7 +81,7 @@ export default async function AboutPage() {
                   <Award className="w-5 h-5" />
                 </div>
                 <h3 className="font-serif text-xl font-bold text-legal-navy-950">
-                  The Sterling &amp; Crest Guarantees
+                  The Crest &amp; Sterling Alliance Guarantees
                 </h3>
                 <ul className="space-y-3 text-xs text-slate-600">
                   <li className="flex items-start space-x-2">

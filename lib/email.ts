@@ -26,8 +26,8 @@ function getTransporter() {
 
 export async function sendEmail({ to, subject, html }: SendEmailOptions): Promise<{ success: boolean; simulated?: boolean }> {
   const transporter = getTransporter();
-  const from = `"${process.env.EMAIL_FROM_NAME || "Sterling & Crest Legal"}" <${
-    process.env.EMAIL_FROM || "counsel@sterlingcrestlaw.com"
+  const from = `"${process.env.EMAIL_FROM_NAME || "Crest & Sterling Alliance"}" <${
+    process.env.EMAIL_FROM || "counsel@crestandsterling.com"
   }>`;
 
   if (!transporter) {
@@ -79,12 +79,12 @@ export function consultationClientEmailTemplate(data: {
   <body>
     <div class="container">
       <div class="header">
-        <h1>Sterling & Crest</h1>
+        <h1>Crest & Sterling Alliance</h1>
         <p>LEGAL PRACTITIONERS & ARBITRATORS</p>
       </div>
       <div class="content">
         <p>Dear <strong>${data.fullName}</strong>,</p>
-        <p>Thank you for contacting Sterling & Crest Legal Practitioners. We have formally received your preliminary evaluation request regarding <strong>${data.matterType}</strong>.</p>
+        <p>Thank you for contacting Crest & Sterling Alliance. We have formally received your preliminary evaluation request regarding <strong>${data.matterType}</strong>.</p>
         
         <div>Reference Code: <span class="ref-badge">${data.referenceNumber}</span></div>
 
@@ -104,7 +104,7 @@ export function consultationClientEmailTemplate(data: {
         </div>
       </div>
       <div class="footer">
-        &copy; 2026 Sterling & Crest Legal Practitioners.<br/>
+        &copy; 2026 Crest & Sterling Alliance.<br/>
         Lagos Principal Chambers: 18A Adeola Odeku St, Victoria Island | Abuja | London | Dallas
       </div>
     </div>

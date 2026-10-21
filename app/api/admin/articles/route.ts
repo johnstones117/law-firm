@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from "next/server";
+﻿import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { getCurrentAdmin } from "@/lib/auth";
 import { logAudit } from "@/lib/audit";
@@ -23,7 +23,7 @@ export async function POST(req: NextRequest) {
         summary: body.summary,
         content: body.content,
         category: body.category || "ARTICLE",
-        authorName: body.authorName || "Sterling & Crest Editorial Board",
+        authorName: body.authorName || "Crest & Sterling Editorial Board",
         authorTitle: body.authorTitle || "Senior Counsel",
         readTime: body.readTime || "5 min read",
         coverImage: body.coverImage || "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",

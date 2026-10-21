@@ -59,7 +59,7 @@ export default function ContactForm() {
           Message Received
         </h3>
         <p className="text-xs text-slate-600 max-w-md mx-auto leading-relaxed">
-          Thank you for writing to Sterling &amp; Crest. Your communication has been dispatched to our administrative registry and will be directed to the relevant practice committee.
+          Thank you for writing to Crest &amp; Sterling Alliance. Your communication has been dispatched to our administrative registry and will be directed to the relevant practice committee.
         </p>
         <button
           onClick={() => setSuccess(false)}

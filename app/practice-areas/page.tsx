@@ -1,11 +1,11 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Scale, ArrowRight, Shield, ChevronRight, CheckCircle2 } from "lucide-react";
 import { prisma } from "@/lib/prisma";
 
 export const metadata = {
   title: "Practice Areas & Legal Disciplines",
   description:
-    "Explore Sterling & Crest's 8 core practice areas spanning Commercial Litigation, Corporate Restructuring, Personal Injury, FinTech, and Energy Law.",
+    "Explore Crest & Sterling's 8 core practice areas spanning Commercial Litigation, Corporate Restructuring, Personal Injury, FinTech, and Energy Law.",
 };
 
 export default async function PracticeAreasPage() {

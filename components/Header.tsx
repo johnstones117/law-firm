@@ -114,7 +114,7 @@ export default function Header() {
             </div>
             <div>
               <span className="font-serif text-xl sm:text-2xl font-bold tracking-tight text-white block leading-none">
-                STERLING &amp; CREST
+                Crest &amp; Sterling Alliance
               </span>
               <span className="text-[10px] tracking-[0.25em] text-legal-gold-400 uppercase font-medium block mt-1">
                 Legal Practitioners &bull; Arbitrators

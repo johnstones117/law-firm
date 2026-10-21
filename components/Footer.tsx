@@ -111,7 +111,7 @@ export default function Footer() {
               </div>
               <div>
                 <span className="font-serif text-2xl font-bold tracking-tight text-white block leading-none">
-                  STERLING &amp; CREST
+                  Crest &amp; Sterling Alliance
                 </span>
                 <span className="text-[10px] tracking-[0.25em] text-legal-gold-400 uppercase font-medium block mt-1">
                   Legal Practitioners &bull; Arbitrators
@@ -281,8 +281,8 @@ export default function Footer() {
 
               <div>
                 <strong className="text-white block font-medium">Direct Inquiries</strong>
-                <p className="mt-0.5 text-slate-300">counsel@sterlingcrestlaw.com</p>
-                <p className="mt-0.5 text-slate-300">intake@sterlingcrestlaw.com</p>
+                <p className="mt-0.5 text-slate-300">counsel@crestandsterling.com</p>
+                <p className="mt-0.5 text-slate-300">intake@crestandsterling.com</p>
               </div>
 
               <div className="pt-2">
@@ -302,7 +302,7 @@ export default function Footer() {
         {/* Bottom Bar: Copyright & Compliance Links */}
         <div className="mt-8 pt-6 border-t border-legal-navy-900 flex flex-col md:flex-row items-center justify-between text-xs text-slate-400 space-y-4 md:space-y-0">
           <div>
-            &copy; 2026 Sterling &amp; Crest Legal Practitioners. All Rights Reserved.
+            &copy; 2026 Crest &amp; Sterling Alliance. All Rights Reserved.
           </div>
 
           <div className="flex flex-wrap items-center gap-x-6 gap-y-2">

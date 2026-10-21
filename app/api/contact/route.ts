@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from "next/server";
+﻿import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { ContactMessageSchema } from "@/lib/validations";
 import { sendEmail } from "@/lib/email";
@@ -30,7 +30,7 @@ export async function POST(req: NextRequest) {
 
     // Notify firm admin
     await sendEmail({
-      to: process.env.NEXT_PUBLIC_PRIMARY_EMAIL || "counsel@sterlingcrestlaw.com",
+      to: process.env.NEXT_PUBLIC_PRIMARY_EMAIL || "counsel@crestandsterling.com",
       subject: `📬 New General Message: ${subject} (From: ${fullName})`,
       html: `
         <h3>New Contact Message Received</h3>
