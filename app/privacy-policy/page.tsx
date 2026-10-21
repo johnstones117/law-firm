@@ -71,7 +71,7 @@ export default function PrivacyPolicyPage() {
             <br />
             18A Adeola Odeku Street, Victoria Island, Lagos
             <br />
-            Email: <a href="mailto:privacy@crestandsterling.com" className="text-legal-gold-700 underline">privacy@crestandsterling.com</a>
+            Email: <a href="mailto:privacy@crestwoodalliance.com" className="text-legal-gold-700 underline">privacy@crestwoodalliance.com</a>
           </p>
         </div>
       </section>

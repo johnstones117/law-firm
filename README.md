@@ -80,7 +80,7 @@ Open **[http://localhost:3000](http://localhost:3000)** in your browser.
 
 | Portal | URL | Email | Password |
 |---|---|---|---|
-| **Chambers Administrative CMS** | `/admin/login` | `senior.partner@crestandsterling.com` | `Sterling@Admin2026!` |
+| **Chambers Administrative CMS** | `/admin/login` | `senior.partner@crestwoodalliance.com` | `Sterling@Admin2026!` |
 
 ---
 
@@ -100,7 +100,7 @@ git push -u origin main
 2. Under **Environment Variables**, configure the variables from `.env.example`:
    - `DATABASE_URL`: Your production PostgreSQL URL (e.g. Neon.tech, Supabase, or Vercel Postgres).
    - `AUTH_SECRET`: A secure 32+ character random string.
-   - `NEXT_PUBLIC_APP_URL`: Your custom production domain (e.g. `https://crestandsterling.com`).
+   - `NEXT_PUBLIC_APP_URL`: Your custom production domain (e.g. `https://crestwoodalliance.com`).
    - `EMAIL_HOST`, `EMAIL_USER`, `EMAIL_PASS`: SMTP credentials for live email delivery.
 3. Deploy!
 

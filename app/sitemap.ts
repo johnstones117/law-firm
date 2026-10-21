@@ -2,7 +2,7 @@
 import { prisma } from "@/lib/prisma";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "https://crestandsterling.com";
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "https://crestwoodalliance.com";
 
   const [practiceAreas, attorneys, articles] = await Promise.all([
     prisma.practiceArea.findMany({ select: { slug: true, updatedAt: true } }),

@@ -281,8 +281,8 @@ export default function Footer() {
 
               <div>
                 <strong className="text-white block font-medium">Direct Inquiries</strong>
-                <p className="mt-0.5 text-slate-300">counsel@crestandsterling.com</p>
-                <p className="mt-0.5 text-slate-300">intake@crestandsterling.com</p>
+                <p className="mt-0.5 text-slate-300">counsel@crestwoodalliance.com</p>
+                <p className="mt-0.5 text-slate-300">intake@crestwoodalliance.com</p>
               </div>
 
               <div className="pt-2">

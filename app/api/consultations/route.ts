@@ -68,7 +68,7 @@ export async function POST(req: NextRequest) {
 
     // 3. Dispatch Intake Alert to Firm Admin Team
     const adminIntakeEmail =
-      process.env.NEXT_PUBLIC_CONSULTATIONS_EMAIL || "intake@crestandsterling.com";
+      process.env.NEXT_PUBLIC_CONSULTATIONS_EMAIL || "intake@crestwoodalliance.com";
     await sendEmail({
       to: adminIntakeEmail,
       subject: `⚖️ NEW INTAKE: ${fullName} (${matterType}) [${referenceNumber}]`,
