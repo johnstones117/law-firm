@@ -83,7 +83,7 @@ export default function Header() {
               className="flex items-center font-medium text-slate-200 hover:text-legal-gold-400 transition"
             >
               <Phone className="w-3 h-3 mr-1.5 text-legal-gold-400" />
-              Direct Chambers: +1 (212) 900-4800
+              Direct Chambers: (312) 736-8337
             </Link>
             <Link
               href="/search"
@@ -232,7 +232,7 @@ export default function Header() {
               className="flex items-center text-sm font-medium text-legal-gold-400"
             >
               <Phone className="w-4 h-4 mr-2" />
-              Call Chambers: +1 (212) 900-4800
+              Call Chambers: (312) 736-8337
             </Link>
           </div>
 

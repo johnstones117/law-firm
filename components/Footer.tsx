@@ -270,7 +270,7 @@ export default function Footer() {
               <div>
                 <strong className="text-white block font-medium">Chicago Head Office</strong>
                 <p className="mt-0.5">233 South Wacker Drive, 84th Floor, The Loop, Chicago, IL 60606</p>
-                <p className="mt-0.5 text-legal-gold-400 font-mono">+1 (212) 900-4800</p>
+                <p className="mt-0.5 text-legal-gold-400 font-mono">(312) 736-8337</p>
               </div>
 
               <div>

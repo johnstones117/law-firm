@@ -163,7 +163,7 @@ export default function HomeSections({
                 <div className="mt-4 pt-4 border-t border-legal-navy-800 flex items-center justify-between text-xs text-slate-400">
                   <span className="flex items-center text-slate-300">
                     <Phone className="w-3.5 h-3.5 mr-1.5 text-legal-gold-400" />
-                    +1 (212) 900-4800
+                    (312) 736-8337
                   </span>
                   <span className="text-slate-400">Response within 2 hrs</span>
                 </div>
@@ -277,7 +277,7 @@ export default function HomeSections({
                 Confidential Contact
               </h3>
               <p className="text-slate-300 text-sm leading-relaxed">
-                Call our direct chambers line at <strong className="text-white">+1 (212) 900-4800</strong> or submit our secure intake evaluation form.
+                Call our direct chambers line at <strong className="text-white">(312) 736-8337</strong> or submit our secure intake evaluation form.
               </p>
             </div>
 
@@ -654,7 +654,7 @@ export default function HomeSections({
                   </div>
                   <div>
                     <span className="block text-slate-400 text-[11px]">Direct Chambers Telephone</span>
-                    <strong className="text-white text-sm font-mono">+1 (212) 900-4800</strong>
+                    <strong className="text-white text-sm font-mono">(312) 736-8337</strong>
                   </div>
                 </div>
 

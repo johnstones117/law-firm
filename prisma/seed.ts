@@ -827,7 +827,7 @@ Too often in multi-million-dollar cross-border commercial transactions, the disp
       addressLine1: "425 Lexington Avenue, 12th Floor",
       addressLine2: "Midtown Manhattan, New York, NY",
       postalCode: "10017",
-      phone: "+1 (212) 900-4800",
+      phone: "(312) 736-8337",
       email: "newyork@crestwoodalliance.com",
       hours: "Monday – Friday: 8:00 AM – 6:00 PM (EST)",
       mapUrl: "https://maps.google.com/?q=425+Lexington+Avenue+New+York+NY",
@@ -885,7 +885,7 @@ Too often in multi-million-dollar cross-border commercial transactions, the disp
     {
       question: "How do I schedule an initial consultation or case evaluation?",
       answer:
-        "You can schedule a consultation by completing our secure online Consultation Request form, calling our principal chambers directly at +1 (212) 900-4800, or emailing intake@crestwoodalliance.com. Our intake committee reviews all inquiries within two business hours and contacts you to confirm availability with the appropriate Practice Group Leader.",
+        "You can schedule a consultation by completing our secure online Consultation Request form, calling our principal chambers directly at (312) 736-8337, or emailing intake@crestwoodalliance.com. Our intake committee reviews all inquiries within two business hours and contacts you to confirm availability with the appropriate Practice Group Leader.",
       category: "CONSULTATIONS",
       displayOrder: 1,
     },
@@ -1002,7 +1002,7 @@ Too often in multi-million-dollar cross-border commercial transactions, the disp
   const defaultSettings = [
     { key: "FIRM_NAME", value: "Crest & Sterling Alliance", description: "Official firm name" },
     { key: "FIRM_TAGLINE", value: "Strategic Legal Counsel for Complex Matters", description: "Firm slogan" },
-    { key: "PRIMARY_PHONE", value: "+1 (212) 900-4800", description: "Main phone line" },
+    { key: "PRIMARY_PHONE", value: "(312) 736-8337", description: "Main phone line" },
     { key: "SECONDARY_PHONE", value: "+1 (202) 550-7700", description: "Washington D.C. phone line" },
     { key: "PRIMARY_EMAIL", value: "counsel@crestwoodalliance.com", description: "Main inquiry email" },
     { key: "CONSULTATION_EMAIL", value: "intake@crestwoodalliance.com", description: "Direct intake email" },
