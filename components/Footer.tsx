@@ -274,8 +274,8 @@ export default function Footer() {
               </div>
 
               <div>
-                <strong className="text-white block font-medium">Washington D.C. Office</strong>
-                <p className="mt-0.5">1250 Connecticut Avenue NW, Suite 700, Washington, D.C. 20036</p>
+                <strong className="text-white block font-medium">Toronto Head Office</strong>
+                <p className="mt-0.5">1250 Bay Street, Suite 700, Toronto, Ontario M5R 2A5, Canada</p>
                 <p className="mt-0.5 text-legal-gold-400 font-mono">+1 (202) 550-7700</p>
               </div>
 
