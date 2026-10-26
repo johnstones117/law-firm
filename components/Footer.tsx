@@ -268,8 +268,8 @@ export default function Footer() {
             </h4>
             <div className="space-y-4 text-xs text-slate-400">
               <div>
-                <strong className="text-white block font-medium">New York Head Office</strong>
-                <p className="mt-0.5">425 Lexington Avenue, 12th Floor, Midtown Manhattan, NY 10017</p>
+                <strong className="text-white block font-medium">Chicago Head Office</strong>
+                <p className="mt-0.5">233 South Wacker Drive, 84th Floor, The Loop, Chicago, IL 60606</p>
                 <p className="mt-0.5 text-legal-gold-400 font-mono">+1 (212) 900-4800</p>
               </div>
 
