@@ -30,7 +30,7 @@ export async function POST(req: NextRequest) {
 
     // Notify firm admin
     await sendEmail({
-      to: process.env.NEXT_PUBLIC_PRIMARY_EMAIL || "counsel@crestwoodalliance.com",
+      to: process.env.NEXT_PUBLIC_PRIMARY_EMAIL || "info@crestwoodalliance.com",
       subject: `📬 New General Message: ${subject} (From: ${fullName})`,
       html: `
         <h3>New Contact Message Received</h3>

@@ -894,7 +894,7 @@ export default function AdminDashboardPage() {
                           value={newAttorney.email}
                           onChange={(e) => setNewAttorney({ ...newAttorney, email: e.target.value })}
                           className="w-full px-3 py-2 border rounded"
-                          placeholder="counsel@crestwoodalliance.com"
+                          placeholder="info@crestwoodalliance.com"
                         />
                       </div>
 

@@ -276,13 +276,12 @@ export default function Footer() {
               <div>
                 <strong className="text-white block font-medium">Toronto Head Office</strong>
                 <p className="mt-0.5">1250 Bay Street, Suite 700, Toronto, Ontario M5R 2A5, Canada</p>
-                <p className="mt-0.5 text-legal-gold-400 font-mono">+1 (202) 550-7700</p>
+                <p className="mt-0.5 text-legal-gold-400 font-mono">+14373758664</p>
               </div>
 
               <div>
                 <strong className="text-white block font-medium">Direct Inquiries</strong>
-                <p className="mt-0.5 text-slate-300">counsel@crestwoodalliance.com</p>
-                <p className="mt-0.5 text-slate-300">intake@crestwoodalliance.com</p>
+                <p className="mt-0.5 text-slate-300">info@crestwoodalliance.com</p>
               </div>
 
               <div className="pt-2">

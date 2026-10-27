@@ -27,7 +27,7 @@ function getTransporter() {
 export async function sendEmail({ to, subject, html }: SendEmailOptions): Promise<{ success: boolean; simulated?: boolean }> {
   const transporter = getTransporter();
   const from = `"${process.env.EMAIL_FROM_NAME || "Crest & Sterling Alliance"}" <${
-    process.env.EMAIL_FROM || "counsel@crestwoodalliance.com"
+    process.env.EMAIL_FROM || "info@crestwoodalliance.com"
   }>`;
 
   if (!transporter) {
