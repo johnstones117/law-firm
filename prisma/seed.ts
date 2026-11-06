@@ -259,18 +259,18 @@ async function main() {
     {
       slug: "james-sterling-esq",
       fullName: "James A. Sterling, Esq.",
-      title: "Founding & Senior Partner",
+      title: "Founder, CEO & Senior Partner",
       designation: "Head of Dispute Resolution & Appellate Advocacy",
-      bio: "James A. Sterling is a nationally recognized trial attorney with over 32 years of high-stakes courtroom and arbitration experience. He is celebrated for his strategic mastery in complex commercial, constitutional, and energy disputes before federal and state courts.",
+      bio: "James A. Sterling is a nationally revered trial statesman and the firm's Founder & Chief Executive Officer, bringing over 42 years of high-stakes courtroom and international arbitration experience. He is celebrated for his strategic mastery in complex commercial, constitutional, and energy disputes before federal and state courts.",
       detailedBio:
-        "James A. Sterling is one of America's preeminent trial attorneys and commercial arbitrators. A Fellow of the American College of Trial Lawyers, he has argued over 140 landmark appeals before the U.S. Courts of Appeals and the U.S. Supreme Court, setting vital precedents in corporate governance, energy regulation, sovereign immunity, and arbitral enforcement.\n\nHe serves as a Fellow of the Chartered Institute of Arbitrators (UK) and frequently sits as sole arbitrator and tribunal chairman in New York, London, Geneva, and Paris under ICC, AAA/ICDR, LCIA, and JAMS rules. Throughout his career, he has recovered and defended over $6.5 billion in disputed commercial assets, cross-border joint ventures, and upstream energy concessions.\n\nAt Crest & Sterling Alliance, James leads the firm's Executive Litigation Committee, advising Fortune 500 boards, financial institutions, and sovereign entities on existential regulatory crises, emergency cross-border asset freezes, and bet-the-company courtroom trials.",
+        "James A. Sterling is one of America's preeminent senior trial statesmen and commercial arbitrators. As the Founder and Chief Executive Officer of Crest & Sterling Alliance, he brings more than four decades of distinguished courtroom leadership. A Fellow of the American College of Trial Lawyers, he has argued over 190 landmark appeals before the U.S. Courts of Appeals and the U.S. Supreme Court, setting vital precedents in corporate governance, energy regulation, sovereign immunity, and arbitral enforcement.\n\nHe serves as a Chartered Arbitrator and Fellow of the Chartered Institute of Arbitrators (UK) and frequently sits as sole arbitrator and tribunal president in New York, London, Geneva, and Paris under ICC, AAA/ICDR, LCIA, and JAMS rules. Over his 42-year career, he has recovered and defended over $6.5 billion in disputed commercial assets, cross-border joint ventures, and upstream energy concessions.\n\nAt Crest & Sterling Alliance, James chairs the firm's Executive Board and Litigation Committee, advising Fortune 500 chief executives, institutional boards, and sovereign entities on existential regulatory crises, emergency cross-border asset freezes, and bet-the-company courtroom trials.",
       photoUrl:
-        "https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=800&q=80",
+        "/images/attorneys/james-sterling.jpg",
       email: "j.sterling@crestwoodalliance.com",
       phone: "+1 (212) 900-4801",
       officeLocation: "New York Principal Chambers",
       admissions: JSON.stringify([
-        "New York State Bar (1991)",
+        "New York State Bar (1983)",
         "U.S. District Court, Southern & Eastern Districts of New York",
         "U.S. Court of Appeals, Second Circuit",
         "U.S. Supreme Court",
@@ -738,7 +738,7 @@ Our Banking & FinTech practice routinely prepares digital operators for regulato
         "How sophisticated commercial parties can avoid pathological dispute resolution clauses that lead to years of procedural delays before international tribunals.",
       category: "PUBLICATION",
       authorName: "James A. Sterling, Esq.",
-      authorTitle: "Founding & Senior Partner",
+      authorTitle: "Founder, CEO & Senior Partner",
       readTime: "8 min read",
       coverImage:
         "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80",
