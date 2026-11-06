@@ -69,7 +69,7 @@ export default function Header() {
           <div className="flex items-center space-x-6">
             <span className="flex items-center text-legal-gold-400 font-medium">
               <Shield className="w-3.5 h-3.5 mr-1.5 text-legal-gold-400" />
-              New York &bull; Washington D.C. &bull; Chicago &bull; Dallas
+              California &bull; Canada &bull; Chicago &bull; Washington
             </span>
             <span className="flex items-center text-slate-300 hover:text-white">
               <Clock className="w-3 h-3 mr-1.5 text-legal-gold-400" />

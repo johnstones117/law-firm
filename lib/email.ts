@@ -105,7 +105,7 @@ export function consultationClientEmailTemplate(data: {
       </div>
       <div class="footer">
         &copy; 2026 Crest & Sterling Alliance.<br/>
-        New York Principal Chambers: 425 Lexington Ave, 12th Floor | Washington D.C. | Chicago | Dallas
+        California Head Office: 633 West Fifth Street, 68th Floor | Canada | Chicago | Washington
       </div>
     </div>
   </body>

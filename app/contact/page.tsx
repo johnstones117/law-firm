@@ -26,7 +26,7 @@ export default async function ContactPage() {
               Contact Our Principal &amp; International Chambers
             </h1>
             <p className="text-slate-300 text-base leading-relaxed font-light">
-              We maintain principal litigation chambers in New York and Washington D.C., with additional offices in Chicago and Dallas. 24/7 emergency intake available for time-sensitive court matters.
+              We maintain principal litigation chambers in California and Canada, with additional offices in Chicago and Washington. 24/7 emergency intake available for time-sensitive court matters.
             </p>
           </div>
         </div>

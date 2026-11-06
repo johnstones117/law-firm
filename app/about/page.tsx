@@ -16,7 +16,7 @@ import { prisma } from "@/lib/prisma";
 export const metadata = {
   title: "About Our Firm & Heritage",
   description:
-    "Discover the history, leadership, and unyielding principles that define Crest & Sterling Alliance across New York, Washington D.C., Chicago, and Dallas.",
+    "Discover the history, leadership, and unyielding principles that define Crest & Sterling Alliance across California, Canada, Chicago, and Washington.",
 };
 
 export default async function AboutPage() {
@@ -114,7 +114,7 @@ export default async function AboutPage() {
               Chambers &amp; Referral Destinations
             </h2>
             <p className="text-slate-600 text-sm">
-              Headquartered in New York with additional chambers in Washington D.C., Chicago, and Dallas, Texas.
+              Headquartered in California with additional chambers in Canada, Chicago, and Washington.
             </p>
           </div>
 

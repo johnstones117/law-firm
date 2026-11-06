@@ -5,7 +5,7 @@ import { MapPin, Phone, Mail, Clock, ExternalLink, Shield } from "lucide-react";
 export const metadata = {
   title: "Chambers & Office Locations",
   description:
-    "Explore Crest & Sterling's offices across New York, Washington D.C., Chicago, and Dallas.",
+    "Explore Crest & Sterling's offices across California, Canada, Chicago, and Washington.",
 };
 
 export default async function OfficesPage() {
@@ -26,7 +26,7 @@ export default async function OfficesPage() {
               Our Offices Across the United States &amp; Key Global Financial Centers
             </h1>
             <p className="text-slate-300 text-base leading-relaxed font-light">
-              Connecting deep federal and state court expertise in New York, Washington D.C., Chicago, and Dallas with international cross-border commercial reach.
+              Connecting deep federal and state court expertise in California, Canada, Chicago, and Washington with international cross-border commercial reach.
             </p>
           </div>
         </div>

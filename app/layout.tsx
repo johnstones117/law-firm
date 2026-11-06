@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     default: "Crest & Sterling Alliance | Commercial Litigation, Restructuring & Corporate Counsel",
   },
   description:
-    "An elite commercial legal practice headquartered in the United States with offices in New York, Washington D.C., Chicago, and Dallas. Renowned for strategic trial advocacy, complex debt restructuring, corporate M&A, and high-stakes litigation.",
+    "An elite commercial legal practice headquartered in the United States with offices in California, Canada, Chicago, and Washington. Renowned for strategic trial advocacy, complex debt restructuring, corporate M&A, and high-stakes litigation.",
   keywords: [
     "United States Law Firm",
     "Commercial Litigation New York",
