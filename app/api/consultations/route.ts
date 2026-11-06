@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from "next/server";
+﻿import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { ConsultationSchema } from "@/lib/validations";
 import { generateReferenceCode } from "@/lib/utils";
@@ -44,7 +44,7 @@ export async function POST(req: NextRequest) {
         email,
         phone,
         company: company || null,
-        country: country || "Nigeria",
+        country: country || "United States",
         matterType,
         preferredContact,
         preferredDate: preferredDate || null,

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { CheckCircle, AlertCircle, Send, Shield } from "lucide-react";
@@ -132,7 +132,7 @@ export default function ContactForm() {
             type="tel"
             value={formData.phone}
             onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-            placeholder="+234..."
+            placeholder="+1 (555) 000-0000"
             className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 focus:border-legal-gold-500 rounded-sm text-sm outline-none"
           />
         </div>

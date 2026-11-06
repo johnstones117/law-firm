@@ -1,4 +1,4 @@
-import nodemailer from "nodemailer";
+﻿import nodemailer from "nodemailer";
 
 interface SendEmailOptions {
   to: string;
@@ -97,7 +97,7 @@ export function consultationClientEmailTemplate(data: {
           </ol>
         </div>
 
-        <p>If you require immediate emergency intervention (e.g. unlawful asset seizure, emergency injunction), please reach our 24/7 priority line directly at <strong>+234 (01) 453-8900</strong>.</p>
+        <p>If you require immediate emergency intervention (e.g. unlawful asset seizure, emergency injunction), please reach our 24/7 priority line directly at <strong>(312) 736-8337</strong>.</p>
 
         <div class="disclaimer">
           <strong>Notice:</strong> This email confirms receipt of your inquiry only. Receipt of this communication or submission of preliminary information does not constitute legal advice or establish an attorney-client relationship.
@@ -105,7 +105,7 @@ export function consultationClientEmailTemplate(data: {
       </div>
       <div class="footer">
         &copy; 2026 Crest & Sterling Alliance.<br/>
-        Lagos Principal Chambers: 18A Adeola Odeku St, Victoria Island | Abuja | London | Dallas
+        New York Principal Chambers: 425 Lexington Ave, 12th Floor | Washington D.C. | Chicago | Dallas
       </div>
     </div>
   </body>

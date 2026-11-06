@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import { ShieldAlert, ArrowRight } from "lucide-react";
 
 export const metadata = {
@@ -19,7 +19,7 @@ export default function DisclaimerPage() {
             Formal Legal Disclaimer &amp; Notice
           </h1>
           <p className="text-slate-400 text-xs mt-2">
-            Crest &amp; Sterling Alliance &bull; Senior Advocates of Nigeria
+            Crest &amp; Sterling Alliance &bull; Attorneys &amp; Counselors at Law
           </p>
         </div>
       </section>

@@ -2,14 +2,14 @@
 
 A world-class, production-ready enterprise legal practice web application built with **Next.js 15 (App Router)**, **React 19**, **TypeScript**, **Tailwind CSS**, **Prisma ORM**, and secure session-based authentication.
 
-Inspired by the editorial elegance, strategic dual-practice architecture, and conversion-focused design of [Reaves & Lee, PLLC](https://reaveslee.com/), tailored for an international commercial law firm with chambers in **Lagos, Abuja, London, and Dallas**.
+Inspired by the editorial elegance, strategic dual-practice architecture, and conversion-focused design of [Reaves & Lee, PLLC](https://reaveslee.com/), tailored for an international commercial law firm with chambers in **New York, Washington D.C., Chicago, and Dallas**.
 
 ---
 
 ## 🏛️ System Architecture & Features
 
 ### 1. Public Firm Portals
-- **Homepage (`/`)**: Hero with dual CTA, trust metrics, multidisciplinary legal strength overview, 3-step intake protocol, practice groups grid, featured Senior Advocates of Nigeria (SAN), high-value case studies, client testimonials, legal updates, and consultation intake.
+- **Homepage (`/`)**: Hero with dual CTA, trust metrics, multidisciplinary legal strength overview, 3-step intake protocol, practice groups grid, featured Senior Trial Partners & Counsel, high-value case studies, client testimonials, legal updates, and consultation intake.
 - **About Our Firm (`/about`)**: History, founding principles, leadership, and chambers directory.
 - **Attorneys Directory (`/people`) & Profiles (`/people/[slug]`)**: High-res portraits, titles, detailed biography, bar admissions, academic pedigree, qualifications, languages, linked practice areas, and direct consultation CTA.
 - **Practice Areas (`/practice-areas`) & Deep Dives (`/practice-areas/[slug]`)**: 8 core commercial legal disciplines with practice overview, itemized legal services, relevant industries, leading counsel, representative matters, and FAQs.
@@ -17,7 +17,7 @@ Inspired by the editorial elegance, strategic dual-practice architecture, and co
 - **Representative Matters & Case Studies (`/case-studies`)**: Landmark commercial victories, CAMA debt restructurings, tort compensations, and arbitral outcomes.
 - **Insights & Legal Updates (`/insights`) & Reader (`/insights/[slug]`)**: Publishing system with category filtering (Legal Updates, Articles, Client Alerts, Publications), reading times, and social sharing.
 - **Careers & Pupillage (`/careers`) & Job Detail (`/careers/[slug]`)**: Live job postings with responsibilities, qualifications, and working application submission form.
-- **Multi-Office Chambers (`/offices`) & Contact (`/contact`)**: Lagos Principal Chambers, Abuja FCT, London Mayfair, and Dallas Texas with phone numbers, hours, directions, and general contact form.
+- **Multi-Office Chambers (`/offices`) & Contact (`/contact`)**: New York Principal Chambers, Washington D.C., Chicago, and Dallas Texas with phone numbers, hours, directions, and general contact form.
 - **Consultation & Case Evaluation (`/consultation`)**: 3-step evaluation booking system with client/matter details, contact preference, schedule options, mandatory legal disclaimer consent, reference code generation, database storage, and email notifications.
 - **Frequently Asked Questions (`/faq`)**: Interactive categories (General, Consultations, Litigation, Billing).
 - **Site-Wide Search (`/search?q=`)**: Instant search across Attorneys, Practice Areas, Articles, Case Studies, and FAQs.

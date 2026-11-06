@@ -1,4 +1,4 @@
-import { z } from "zod";
+﻿import { z } from "zod";
 
 // Consultation & Case Evaluation Request Schema
 export const ConsultationSchema = z.object({
@@ -12,7 +12,7 @@ export const ConsultationSchema = z.object({
     .min(7, "Phone number is too short")
     .max(25, "Phone number is too long"),
   company: z.string().max(100).optional().nullable(),
-  country: z.string().default("Nigeria"),
+  country: z.string().default("United States"),
   matterType: z.string().min(2, "Please select the legal matter category"),
   preferredContact: z.enum(["Phone", "Email", "Virtual Meeting"]).default("Phone"),
   preferredDate: z.string().optional().nullable(),

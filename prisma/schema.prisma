@@ -1,4 +1,4 @@
-generator client {
+﻿generator client {
   provider = "prisma-client-js"
 }
 
@@ -50,14 +50,14 @@ model Attorney {
   id             String                     @id @default(cuid())
   slug           String                     @unique
   fullName       String
-  title          String                     // e.g. Senior Partner, Managing Partner, Senior Advocate of Nigeria (SAN), Principal Counsel
+  title          String                     // e.g. Senior Partner, Managing Partner, Litigation Chair, Principal Counsel
   designation    String                     // e.g. Head of Dispute Resolution & Commercial Litigation
   bio            String
   detailedBio    String
   photoUrl       String
   email          String
   phone          String
-  officeLocation String                     // e.g. Lagos, Abuja, London
+  officeLocation String                     // e.g. New York, Washington D.C., Chicago, Dallas
   admissions     String                     // JSON string array
   education      String                     // JSON string array
   qualifications String                     // JSON string array
@@ -184,7 +184,7 @@ model JobPosting {
   slug             String           @unique
   title            String
   department       String           // e.g. Dispute Resolution, Corporate & Commercial
-  location         String           // e.g. Lagos, Abuja, Hybrid
+  location         String           // e.g. New York, Chicago, Hybrid
   employmentType   String           // Full-time, Associate, Pupil Counsel
   experienceLevel  String
   summary          String
@@ -224,7 +224,7 @@ model ConsultationRequest {
   email            String
   phone            String
   company          String?
-  country          String   @default("Nigeria")
+  country          String   @default("United States")
   matterType       String   // e.g. Corporate Law, Commercial Litigation, Bankruptcy & Restructuring, Personal Injury
   preferredContact String   // Phone, Email, Virtual Meeting
   preferredDate    String?

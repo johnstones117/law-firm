@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { CheckCircle, AlertCircle, Send, Lock } from "lucide-react";
@@ -103,7 +103,7 @@ export default function JobApplicationForm({ jobId, jobTitle }: Props) {
           required
           value={formData.fullName}
           onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
-          placeholder="e.g. Adebayo Adeola"
+          placeholder="e.g. John Doe"
           className="w-full px-3 py-2 bg-slate-50 border border-slate-300 focus:border-legal-gold-500 rounded-sm text-sm outline-none"
         />
       </div>
@@ -132,7 +132,7 @@ export default function JobApplicationForm({ jobId, jobTitle }: Props) {
             required
             value={formData.phone}
             onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-            placeholder="+234 800 000 0000"
+            placeholder="+1 (555) 000-0000"
             className="w-full px-3 py-2 bg-slate-50 border border-slate-300 focus:border-legal-gold-500 rounded-sm text-sm outline-none"
           />
         </div>

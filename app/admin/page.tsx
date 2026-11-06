@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
@@ -64,8 +64,8 @@ export default function AdminDashboardPage() {
     detailedBio: "",
     photoUrl: "https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=800&q=80",
     email: "",
-    phone: "+234 (01) 453-8900",
-    officeLocation: "Lagos Principal Chambers",
+    phone: "(312) 736-8337",
+    officeLocation: "New York Principal Chambers",
     isPartner: true,
     isFeatured: false,
     isPublished: true,
@@ -846,7 +846,7 @@ export default function AdminDashboardPage() {
                           value={newAttorney.fullName}
                           onChange={(e) => setNewAttorney({ ...newAttorney, fullName: e.target.value })}
                           className="w-full px-3 py-2 border rounded"
-                          placeholder="e.g. Chief Babatunde Cole SAN"
+                          placeholder="e.g. Marcus Vance, Esq."
                         />
                       </div>
 
@@ -858,7 +858,7 @@ export default function AdminDashboardPage() {
                           value={newAttorney.title}
                           onChange={(e) => setNewAttorney({ ...newAttorney, title: e.target.value })}
                           className="w-full px-3 py-2 border rounded"
-                          placeholder="Senior Partner / Senior Advocate of Nigeria"
+                          placeholder="Senior Partner / Litigation Chair"
                         />
                       </div>
 

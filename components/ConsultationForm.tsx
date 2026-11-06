@@ -28,7 +28,7 @@ export default function ConsultationForm({
     email: "",
     phone: "",
     company: "",
-    country: "Nigeria",
+    country: "United States",
     matterType: initialMatterType,
     preferredContact: "Phone" as "Phone" | "Email" | "Virtual Meeting",
     preferredDate: "",
@@ -160,7 +160,7 @@ export default function ConsultationForm({
                 email: "",
                 phone: "",
                 company: "",
-                country: "Nigeria",
+                country: "United States",
                 matterType: initialMatterType,
                 preferredContact: "Phone",
                 preferredDate: "",
@@ -267,7 +267,7 @@ export default function ConsultationForm({
             required
             value={formData.phone}
             onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-            placeholder="+234 (0) 803 000 0000"
+            placeholder="+1 (555) 000-0000"
             className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 focus:border-legal-gold-500 focus:bg-white focus:ring-1 focus:ring-legal-gold-500 text-sm rounded-sm outline-none transition"
           />
         </div>
@@ -412,7 +412,7 @@ export default function ConsultationForm({
         </span>
         <span className="flex items-center">
           <PhoneCall className="w-3 h-3 mr-1 text-slate-400" />
-          Urgent Injunction Line: +234 (01) 453-8900
+          Urgent Injunction Line: (312) 736-8337
         </span>
       </div>
     </form>

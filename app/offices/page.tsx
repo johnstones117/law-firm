@@ -1,11 +1,11 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import { prisma } from "@/lib/prisma";
 import { MapPin, Phone, Mail, Clock, ExternalLink, Shield } from "lucide-react";
 
 export const metadata = {
-  title: "Global Chambers & Office Locations",
+  title: "Chambers & Office Locations",
   description:
-    "Explore Crest & Sterling's principal chambers in Victoria Island Lagos and Abuja Central Business District, alongside our international liaison offices in London and Texas.",
+    "Explore Crest & Sterling's offices across New York, Washington D.C., Chicago, and Dallas.",
 };
 
 export default async function OfficesPage() {

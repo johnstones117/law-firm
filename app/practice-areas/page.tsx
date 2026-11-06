@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import { Scale, ArrowRight, Shield, ChevronRight, CheckCircle2 } from "lucide-react";
 import { prisma } from "@/lib/prisma";
 
@@ -27,7 +27,7 @@ export default async function PracticeAreasPage() {
               Multidisciplinary Legal Counsel Built for Sovereign &amp; Corporate Champions
             </h1>
             <p className="text-slate-300 text-base leading-relaxed font-light">
-              From the Supreme Court of Nigeria to international arbitral tribunals in London and Paris, our specialized practice groups deliver relentless advocacy and structural certainty.
+              From federal district and appellate courts to international arbitral tribunals, our specialized practice groups deliver relentless advocacy and structural certainty.
             </p>
           </div>
         </div>

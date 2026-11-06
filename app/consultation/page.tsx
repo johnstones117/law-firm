@@ -1,4 +1,4 @@
-import ConsultationForm from "@/components/ConsultationForm";
+﻿import ConsultationForm from "@/components/ConsultationForm";
 import { Shield, Clock, Phone, Lock, CheckCircle2 } from "lucide-react";
 
 export const metadata = {
@@ -106,10 +106,10 @@ export default async function ConsultationPage({ searchParams }: Props) {
                   For emergency ex-parte applications, vessel arrests, or urgent creditor debt freezes, call our chambers priority desk directly:
                 </p>
                 <a
-                  href="tel:+23414538900"
+                  href="tel:+13127368337"
                   className="block text-center bg-legal-gold-500 hover:bg-legal-gold-600 text-legal-navy-950 font-bold py-3 rounded-sm uppercase tracking-wider text-xs transition font-mono"
                 >
-                  Call +234 (01) 453-8900
+                  Call (312) 736-8337
                 </a>
               </div>
             </div>

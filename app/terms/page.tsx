@@ -35,7 +35,7 @@ export default function TermsPage() {
 
           <h2 className="font-serif text-xl font-bold text-legal-navy-950">3. Intellectual Property Rights</h2>
           <p>
-            All text, branding, graphics, publication texts, case analyses, and logos on this website are the proprietary intellectual property of Crest &amp; Sterling Alliance and are protected under Nigerian copyright laws and international treaties. No portion may be reproduced without prior written consent.
+            All text, branding, graphics, publication texts, case analyses, and logos on this website are the proprietary intellectual property of Crest &amp; Sterling Alliance and are protected under United States copyright laws and international treaties. No portion may be reproduced without prior written consent.
           </p>
 
           <h2 className="font-serif text-xl font-bold text-legal-navy-950">4. Limitation of Liability</h2>

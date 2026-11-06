@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from "next/server";
+﻿import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { getCurrentAdmin } from "@/lib/auth";
 import { logAudit } from "@/lib/audit";
@@ -27,7 +27,7 @@ export async function POST(req: NextRequest) {
         photoUrl: body.photoUrl || "https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=800&q=80",
         email: body.email,
         phone: body.phone,
-        officeLocation: body.officeLocation || "Lagos Principal Chambers",
+        officeLocation: body.officeLocation || "New York Principal Chambers",
         admissions: JSON.stringify(body.admissions || []),
         education: JSON.stringify(body.education || []),
         qualifications: JSON.stringify(body.qualifications || []),

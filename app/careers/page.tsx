@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import { Briefcase, MapPin, Clock, ArrowRight, Shield, Award } from "lucide-react";
 import { prisma } from "@/lib/prisma";
 import { formatDate } from "@/lib/utils";
@@ -54,7 +54,7 @@ export default async function CareersPage() {
                 High-Stakes Precedents
               </h2>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Work directly with Senior Advocates of Nigeria on reported appellate appeals and multi-billion-Naira cross-border arbitrations.
+                Work directly with senior trial partners on reported appellate appeals and high-stakes cross-border arbitrations.
               </p>
             </div>
 
@@ -64,7 +64,7 @@ export default async function CareersPage() {
                 Continuous Education
               </h2>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Firm-sponsored international legal conferences (IBA, LCIA, NBA) and advanced trial advocacy masterclasses.
+                Firm-sponsored international legal conferences (ABA, IBA, LCIA) and advanced trial advocacy masterclasses.
               </p>
             </div>
           </div>
