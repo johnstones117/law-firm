@@ -9,6 +9,14 @@ interface Props {
   params: Promise<{ slug: string }>;
 }
 
+export async function generateStaticParams() {
+  const jobs = await prisma.jobPosting.findMany({
+    where: { isOpen: true },
+    select: { slug: true },
+  });
+  return jobs.map((job) => ({ slug: job.slug }));
+}
+
 export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
   const job = await prisma.jobPosting.findUnique({

@@ -19,6 +19,14 @@ interface Props {
   params: Promise<{ slug: string }>;
 }
 
+export async function generateStaticParams() {
+  const articles = await prisma.article.findMany({
+    where: { isPublished: true },
+    select: { slug: true },
+  });
+  return articles.map((article) => ({ slug: article.slug }));
+}
+
 export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
   const article = await prisma.article.findUnique({
