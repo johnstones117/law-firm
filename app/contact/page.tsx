@@ -1,4 +1,4 @@
-﻿import { prisma } from "@/lib/prisma";
+import { prisma } from "@/lib/prisma";
 import ContactForm from "@/components/ContactForm";
 import { Phone, Mail, MapPin, Clock, Shield, ExternalLink } from "lucide-react";
 

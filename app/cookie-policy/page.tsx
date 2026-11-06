@@ -1,4 +1,4 @@
-﻿export const metadata = {
+export const metadata = {
   title: "Cookie Policy",
   description:
     "Information regarding our use of strictly necessary, analytical, and functional cookies at Crest & Sterling.",

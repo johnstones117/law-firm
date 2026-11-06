@@ -1,4 +1,4 @@
-﻿# Crest & Sterling Alliance — Enterprise Law Firm Platform
+# Crest & Sterling Alliance — Enterprise Law Firm Platform
 
 A world-class, production-ready enterprise legal practice web application built with **Next.js 15 (App Router)**, **React 19**, **TypeScript**, **Tailwind CSS**, **Prisma ORM**, and secure session-based authentication.
 

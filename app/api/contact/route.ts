@@ -1,4 +1,4 @@
-﻿import { NextRequest, NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { ContactMessageSchema } from "@/lib/validations";
 import { sendEmail } from "@/lib/email";

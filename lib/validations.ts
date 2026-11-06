@@ -1,4 +1,4 @@
-﻿import { z } from "zod";
+import { z } from "zod";
 
 // Consultation & Case Evaluation Request Schema
 export const ConsultationSchema = z.object({

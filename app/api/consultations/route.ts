@@ -1,4 +1,4 @@
-﻿import { NextRequest, NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { ConsultationSchema } from "@/lib/validations";
 import { generateReferenceCode } from "@/lib/utils";

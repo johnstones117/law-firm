@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import { Scale, ArrowRight, Shield, Award, CheckCircle2 } from "lucide-react";
 import { prisma } from "@/lib/prisma";
 

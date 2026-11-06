@@ -1,4 +1,4 @@
-﻿import { CheckCircle2, Shield } from "lucide-react";
+import { CheckCircle2, Shield } from "lucide-react";
 
 export const metadata = {
   title: "Accessibility Statement (WCAG 2.2 AA)",

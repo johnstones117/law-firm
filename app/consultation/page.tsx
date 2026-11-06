@@ -1,4 +1,4 @@
-﻿import ConsultationForm from "@/components/ConsultationForm";
+import ConsultationForm from "@/components/ConsultationForm";
 import { Shield, Clock, Phone, Lock, CheckCircle2 } from "lucide-react";
 
 export const metadata = {

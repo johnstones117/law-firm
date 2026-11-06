@@ -1,4 +1,4 @@
-﻿export const metadata = {
+export const metadata = {
   title: "Terms of Use",
   description:
     "Terms and conditions governing the use of the Crest & Sterling website and electronic consultation portals.",
