@@ -412,7 +412,7 @@ export default function ConsultationForm({
         </span>
         <span className="flex items-center">
           <PhoneCall className="w-3 h-3 mr-1 text-slate-400" />
-          Urgent Injunction Line: (312) 736-8337
+          Urgent Injunction Line: +14373758664
         </span>
       </div>
     </form>

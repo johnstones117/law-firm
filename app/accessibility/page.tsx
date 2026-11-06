@@ -51,7 +51,7 @@ export default function AccessibilityPage() {
 
           <h2 className="font-serif text-xl font-bold text-legal-navy-950">Feedback &amp; Assistance</h2>
           <p>
-            If you encounter difficulty accessing any content on this website, please contact our Technical Desk at <a href="mailto:accessibility@crestwoodalliance.com" className="text-legal-gold-700 underline">accessibility@crestwoodalliance.com</a> or telephone chambers at (312) 736-8337.
+            If you encounter difficulty accessing any content on this website, please contact our Technical Desk at <a href="mailto:accessibility@crestwoodalliance.com" className="text-legal-gold-700 underline">accessibility@crestwoodalliance.com</a> or telephone chambers at +14373758664.
           </p>
         </div>
       </section>

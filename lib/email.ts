@@ -97,7 +97,7 @@ export function consultationClientEmailTemplate(data: {
           </ol>
         </div>
 
-        <p>If you require immediate emergency intervention (e.g. unlawful asset seizure, emergency injunction), please reach our 24/7 priority line directly at <strong>(312) 736-8337</strong>.</p>
+        <p>If you require immediate emergency intervention (e.g. unlawful asset seizure, emergency injunction), please reach our 24/7 priority line directly at <strong>+14373758664</strong>.</p>
 
         <div class="disclaimer">
           <strong>Notice:</strong> This email confirms receipt of your inquiry only. Receipt of this communication or submission of preliminary information does not constitute legal advice or establish an attorney-client relationship.

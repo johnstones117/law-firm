@@ -106,10 +106,10 @@ export default async function ConsultationPage({ searchParams }: Props) {
                   For emergency ex-parte applications, vessel arrests, or urgent creditor debt freezes, call our chambers priority desk directly:
                 </p>
                 <a
-                  href="tel:+13127368337"
+                  href="tel:+14373758664"
                   className="block text-center bg-legal-gold-500 hover:bg-legal-gold-600 text-legal-navy-950 font-bold py-3 rounded-sm uppercase tracking-wider text-xs transition font-mono"
                 >
-                  Call (312) 736-8337
+                  Call +14373758664
                 </a>
               </div>
             </div>

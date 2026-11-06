@@ -64,7 +64,7 @@ export default function AdminDashboardPage() {
     detailedBio: "",
     photoUrl: "https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=800&q=80",
     email: "",
-    phone: "(312) 736-8337",
+    phone: "+14373758664",
     officeLocation: "New York Principal Chambers",
     isPartner: true,
     isFeatured: false,

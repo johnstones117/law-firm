@@ -79,11 +79,11 @@ export default function Header() {
 
           <div className="flex items-center space-x-6">
             <Link
-              href="tel:+12129004800"
+              href="tel:+14373758664"
               className="flex items-center font-medium text-slate-200 hover:text-legal-gold-400 transition"
             >
               <Phone className="w-3 h-3 mr-1.5 text-legal-gold-400" />
-              Direct Chambers: (312) 736-8337
+              Direct Chambers: +14373758664
             </Link>
             <Link
               href="/search"
@@ -228,11 +228,11 @@ export default function Header() {
         <div className="lg:hidden bg-legal-navy-950 border-b border-legal-navy-800 px-6 py-6 space-y-4 max-h-[85vh] overflow-y-auto">
           <div className="border-b border-legal-navy-800 pb-3">
             <Link
-              href="tel:+12129004800"
+              href="tel:+14373758664"
               className="flex items-center text-sm font-medium text-legal-gold-400"
             >
               <Phone className="w-4 h-4 mr-2" />
-              Call Chambers: (312) 736-8337
+              Call Chambers: +14373758664
             </Link>
           </div>
 
