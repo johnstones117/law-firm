@@ -328,16 +328,16 @@ async function main() {
       practiceSlugs: ["corporate-commercial", "banking-finance-fintech"],
     },
     {
-      slug: "jonathan-reaves-esq",
-      fullName: "Jonathan Reaves, Esq.",
+      slug: "donald-fraser",
+      fullName: "Donald Fraser",
       title: "Partner",
       designation: "Head of Complex Torts & Catastrophic Injury Litigation",
-      bio: "Jonathan is an aggressive, trial-tested courtroom advocate dedicated to representing victims of industrial negligence, catastrophic trucking collisions, and corporate safety breaches across the United States.",
+      bio: "Donald Fraser is an aggressive, trial-tested courtroom advocate dedicated to representing victims of industrial negligence, catastrophic trucking collisions, and corporate safety breaches across the United States.",
       detailedBio:
-        "Jonathan Reaves combines twenty years of trial experience with an empathetic, client-centered approach. Having trained at the nation's leading plaintiff trial academies in Texas and New York, Jonathan brings relentless courtroom tenacity to every case. He has recovered over $180 million in structured compensation and damages for injured workers, grieving families, and accident victims.\n\nHe operates with a strict guarantee: clients are never treated like numbers, and his trial team prepares every meritorious case for trial rather than settling for discount insurance payouts.",
+        "Donald Fraser combines twenty years of trial experience with an empathetic, client-centered approach. Having trained at the nation's leading plaintiff trial academies in Texas and New York, Donald brings relentless courtroom tenacity to every case. He has recovered over $180 million in structured compensation and damages for injured workers, grieving families, and accident victims.\n\nHe operates with a strict guarantee: clients are never treated like numbers, and his trial team prepares every meritorious case for trial rather than settling for discount insurance payouts.",
       photoUrl:
-        "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80",
-      email: "j.reaves@crestwoodalliance.com",
+        "/images/attorneys/donald-fraser.jpg",
+      email: "d.fraser@crestwoodalliance.com",
       phone: "+1 (212) 900-4803",
       officeLocation: "New York Principal Chambers",
       admissions: JSON.stringify([
@@ -590,7 +590,7 @@ async function main() {
       challenge:
         "The multinational equipment manufacturer and employer denied liability, claiming employee error and asserting indemnification clauses in third-party supply contracts.",
       solution:
-        "Jonathan Reaves mobilized forensic engineering experts, reconstructed the safety sequence failure, and initiated high-profile tort litigation in federal court.",
+        "Donald Fraser mobilized forensic engineering experts, reconstructed the safety sequence failure, and initiated high-profile tort litigation in federal court.",
       outcome:
         "Secured a confidential multi-million-dollar structured settlement covering lifelong medical care, home modification, and financial security for the client's family.",
       matterYear: "2024",
@@ -668,7 +668,7 @@ Distressed companies can obtain debtor-in-possession financing that carries supe
       summary:
         "Why workers injured on offshore platforms, construction sites, and factories are often entitled to substantial common law damages beyond workers' compensation caps.",
       category: "ARTICLE",
-      authorName: "Jonathan Reaves, Esq.",
+      authorName: "Donald Fraser",
       authorTitle: "Partner, Head of Complex Torts",
       readTime: "5 min read",
       coverImage:
@@ -784,7 +784,7 @@ Too often in multi-million-dollar cross-border commercial transactions, the disp
       clientRole: "General Counsel",
       company: "Global Freight & Haulage Logistics",
       quote:
-        "When our interstate trucking fleet faced catastrophic multi-vehicle liability claims and aggressive creditor freezes, Jonathan Reaves and his trial team fought relentlessly. They cut through the noise, protected our capital, and treated our leadership with unwavering professionalism.",
+        "When our interstate trucking fleet faced catastrophic multi-vehicle liability claims and aggressive creditor freezes, Donald Fraser and his trial team fought relentlessly. They cut through the noise, protected our capital, and treated our leadership with unwavering professionalism.",
       rating: 5,
       caseType: "Complex Torts & Liability Defense",
       isFeatured: true,
